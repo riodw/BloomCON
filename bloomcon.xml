@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<bloomcon>
+   <date>
+      <month>March</month>
+      <days_start>24</days_start>
+      <days_end>25</days_end>
+      <year>2017</year>
+   </date>
+
+   <schedule name="SCHEDULE">
+      <!-- DAY 1 -->
+      <day name="Day 1">
+         <Activities start="TBA" end="8:30 AM" fa="check">
+            <activity>
+               <title>To Be Announced</title>
+               <content>Check back later for the full listing!</content>
+            </activity>
+         </Activities>
+      </day>
+      <!-- DAY 2 -->
+      <day name="Day 2">
+         <Activities start="TBA" end="8:30 AM" fa="wheelchair">
+            <activity>
+               <title>I said, TO BE ANNOUNCED!</title>
+               <content>Did you really think there would be something different here?</content>
+            </activity>
+         </Activities>
+      </day>
+   </schedule>
+   
+   <events>
+      <title>EVENTS</title>
+      <first>
+         <title>Wireless Hacking Challenge</title>
+         <content>If endurance, skill, and strategy were the only classifications required for an activity to be considered sport, competitive hacking could be the newest "sport" gaining popularity.</content>
+      </first>
+      <second>
+         <title>Digital Forensics/Incident Response Competition</title>
+         <content>You do stuff, like hacking.</content>
+      </second>
+      <third>
+         <title>Lockpick Village</title>
+         <content>Social engineering is the art of manipulating people so they give up confidential information. The types of information these criminals are seeking can vary, but when individuals are targeted the criminals are usually trying to trick you into
+            giving them your passwords.</content>
+      </third>
+   </events>
+   
+   <sponsors>
+      <title>SPONSORS</title>
+      <email>drphil@bloomcon.com</email>
+      <levels>
+         <level name="Black Diamond" color="000">
+         </level>
+         
+         <level name="Platinum" color="C0C0C0">
+            <company color="539138">
+               <front width="85" margin="6">Mepush.png</front>
+               <back width="94" margin="50">MepushLogo.png</back>
+               <link>MePush.com</link>
+            </company>
+            <company color="036aad">
+               <front width="" margin="">4discovery.png</front>
+               <back width="95" margin="55">4discovery2.jpg</back>
+               <link>4Discovery.com</link>
+            </company>
+         </level>
+         
+         <level name="Silver" color="C0C0C0">
+            <company color="0e763c">
+               <front width="" margin="10">TrustedSec.png</front>
+               <back width="91" margin="12">TrustedSec2.png</back>
+               <link>TrustedSec.com</link>
+            </company>
+            <company color="74202F">
+               <front width="" margin="">bu_logo.jpg</front>
+               <back width="45" margin="9">huskie.png</back>
+               <link>bloomu.edu</link>
+            </company>
+            <company color="10467f">
+               <front width="" margin="">G3.png</front>
+               <back width="93" margin="">G3Tech.jpg</back>
+               <link>G3ti.net</link>
+            </company>
+         </level>
+         
+         <level name="Bronze" color="9C6963">
+            <company color="e32a21">
+               <front width="" margin="">ToyotaS.jpg</front>
+               <back width="" margin="">ToyotaScranton.jpg</back>
+               <link>ToyotaofScranton.com</link>
+            </company>
+         </level>
+      </levels>
+   </sponsors>
+</bloomcon>

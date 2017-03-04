@@ -1,0 +1,26 @@
+#about {
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.downcount {
+    color: #3A3A3A;
+    font: normal 55px 'Open Sans Light', sans-serif;
+    margin-top: 0px;
+}
+
+#about h3 {
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    #about h3 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,9 @@
+h1 {
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+    .container {
+        width: 900px;
+    }
+}

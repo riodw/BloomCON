@@ -1,0 +1,128 @@
+#DAY1 {display: block;
+}
+#DAY2 {
+   display: none;
+}
+#schedule {
+   background-color: #BAE2F4;
+   width: 100%;
+   padding: 45px 0;
+}
+#schedule article {
+   height: auto;
+   margin: 11px 0;
+   overflow: hidden;
+   position: relative;
+}
+#schedule article .time {
+   text-align: center;
+   background-color: #1BA1DB;
+   display: block;
+   position: absolute;
+   height: auto;
+   padding: 0 5px;
+   color: #fff;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 100;
+}
+#schedule article .eventTime {
+   height: 100%;
+   text-align: left;
+   display: block;
+   padding-left: 10px;
+   padding-right: 0;
+   min-height: 100px;
+}
+#schedule article .eventTime div {
+   min-height: 100px;
+   background-color: #fff;
+   display: block;
+   padding-left: 10px;
+   z-index: 50;
+}
+#schedule article .eventTime div h3 {
+   color: #008ECC;
+}
+#schedule article .time p {
+   text-align: center;
+   vertical-align: middle;
+   font-size: 1.6em;
+   width: 100%;
+   margin-top: 5px;
+   margin-bottom: 0;
+}
+#schedule article .time p .fa {
+   font-size: 2em;
+   margin-top: 5px;
+}
+@media (max-width: 768px) {
+   #schedule article .time p {
+      font-size: 1.3em;
+   }
+   
+   #schedule article .time p .fa {
+      font-size: 1.7em;
+   }
+}
+@media (max-width: 650px) {
+   #schedule article .time p {
+      font-size: 1em;
+   }
+   
+   #schedule article .time p .fa {
+      font-size: 2em;
+   }
+}
+#schedule article .eventTime p {
+   height: 100%;
+   vertical-align: middle;
+}
+
+/* ---------- Days Buttons --------- */
+
+/* ---------- Days Buttons --------- */
+#schedule .days {
+   height: 75px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+#schedule .days article {
+   height: 100%;
+}
+#schedule .days article div {
+   height: 100%;
+   color: #000;
+   background-color: #fff;
+   cursor: pointer;
+}
+#schedule .days article .active {
+   color: white;
+   background-color: #008ECC;
+}
+#schedule .days p {
+   margin-top: 15px;
+   vertical-align: middle;
+   font-size: 2em;
+   text-decoration: underline;
+}
+
+/* Dan P. */
+#schedule article .announcement {
+   height: 100%;
+   text-align: left;
+   display: block;
+   min-height: 100px;
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#schedule article .announcement div {
+   min-height: 100px;
+   background-color: #1BA1DB;
+   display: block;
+   padding-left: 10px;
+   z-index: 50;
+   color: #FFF;
+   text-align: center;
+}

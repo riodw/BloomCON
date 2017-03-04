@@ -1,0 +1,253 @@
+#matrix {
+  background-attachment: scroll, scroll, fixed;
+  background-image: url("images/top-3200.svg");
+  background-position: bottom center, top left, center center;
+  background-repeat: repeat-x, repeat, no-repeat;
+  background-size: 3200px 460px, auto, cover;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10em 0 20em 0;
+  position: relative;
+  text-align: center;
+}
+
+#matrix {
+  background-attachment: scroll, scroll, scroll;
+  background-size: 1600px 230px, auto, cover;
+  padding: 6em 0 12em 0;
+}
+
+#hacker {
+  -webkit-transition-duration: .5s;
+  /* Safari */
+  -moz-transition-duration: .5s;
+  /* Firefox */
+  -ms-transition-duration: .5s;
+  /* IE */
+  -o-transition-duration: .5s;
+  /* Opera */
+  transition-duration: .5s;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+  color: #fff;
+}
+
+
+/* MATRIX */
+
+.matrix-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#matrixHolder {
+  background: #000;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  -webkit-transition-duration: .5s;
+  /* Safari */
+  -moz-transition-duration: .5s;
+  /* Firefox */
+  -ms-transition-duration: .5s;
+  /* IE */
+  -o-transition-duration: .5s;
+  /* Opera */
+  transition-duration: .5s;
+}
+
+#matrix {
+  background: #000;
+  color: rgba(0, 255, 0, .7);
+  width: 100%;
+  height: 710px;
+  text-shadow: rgba(255, 255, 255, .9) 0px 0px 4px;
+  position: relative;
+}
+
+@-webkit-keyframes fadeing {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes falling {
+  from {
+    top: -350px;
+  }
+  to {
+    top: 700px;
+  }
+}
+
+@-moz-keyframes fadeing {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes falling {
+  from {
+    top: -350px;
+  }
+  to {
+    top: 700px;
+  }
+}
+
+@-ms-keyframes fadeing {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes falling {
+  from {
+    top: -350px;
+  }
+  to {
+    top: 700px;
+  }
+}
+
+#matrix div {
+  position: absolute;
+  top: 0;
+  text-transform: lowercase;
+  /* webkit */
+  -webkit-transform: rotate(90deg);
+  -webkit-animation-name: falling, fadeing;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  -moz-animation-name: falling, fadeing;
+  -moz-animation-timing-function: ease-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: normal;
+  /* IE */
+  -ms-transform: rotate(90deg);
+  -ms-animation-name: falling, fadeing;
+  -ms-animation-timing-function: ease-out;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: normal;
+  /* Opera */
+  /* Firefox */
+  -o-transform: rotate(90deg);
+  -o-animation-name: falling, fadeing;
+  -o-animation-timing-function: ease-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  /* original */
+  /* Firefox */
+  transform: rotate(90deg);
+  animation-name: falling, fadeing;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.t0 {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+.t1 {
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -ms-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+}
+
+.t2 {
+  -webkit-animation-duration: 6s;
+  -moz-animation-duration: 6s;
+  -ms-animation-duration: 6s;
+  -o-animation-duration: 6s;
+  animation-duration: 6s;
+}
+
+.t3 {
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -ms-animation-duration: 8s;
+  -o-animation-duration: 8s;
+  animation-duration: 8s;
+}
+
+.t4 {
+  -webkit-animation-duration: 10s;
+  -moz-animation-duration: 10s;
+  -ms-animation-duration: 10s;
+  -o-animation-duration: 10s;
+  animation-duration: 10s;
+}
+
+.t5 {
+  -webkit-animation-duration: 13s;
+  -moz-animation-duration: 13s;
+  -ms-animation-duration: 13s;
+  -o-animation-duration: 13s;
+  animation-duration: 13s;
+}
+
+.t6 {
+  -webkit-animation-duration: 17s;
+  -moz-animation-duration: 17s;
+  -ms-animation-duration: 17s;
+  -o-animation-duration: 17s;
+  animation-duration: 17s;
+}
+
+
+/* Small phone */
+
+@media (max-width: 800px) {
+  #matrix {
+    display: none;
+  }
+}
+
+
+/* LOGO LOGO - logo logo  */
+
+#header a:hover {
+  text-decoration: none;
+}
+
+#logo {
+  cursor: default;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+  min-height: 600px;
+  margin-top: 45px;
+}
+
+#logo img {
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: default;
+  font-size: 2.25em;
+  max-width: 194px;
+  line-height: 2.35em;
+  text-align: center;
+  font-weight: 200;
+}

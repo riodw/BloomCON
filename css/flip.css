@@ -1,0 +1,113 @@
+#sponsors {
+   text-align: center;
+}
+
+#sponsors h2 {
+   text-transform: uppercase;
+}
+
+#sponsors hr {
+   width: 40%;
+}
+
+
+/* entire container, keeps perspective */
+
+.flip-container {
+   margin: auto;
+}
+
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+   transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+   width: 180px;
+   height: 180px;
+}
+
+
+/* flip speed goes here */
+
+.flipper {
+   transition: 0.7s;
+   transform-style: preserve-3d;
+   position: relative;
+}
+
+
+/* hide back of pane during swap */
+
+.front,
+.back {
+   backface-visibility: hidden;
+   color: #000;
+   background-color: #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+/* front pane, placed above back */
+
+.front {
+   z-index: 2;
+   /* for firefox 31 */
+   transform: rotateY(0deg);
+   background-size: contain;
+}
+
+
+/* back, initially hidden pane */
+
+.back {
+   transform: rotateY(180deg);
+}
+
+
+/* ---------------------------------------------------- EXTRA Important - */
+
+#sponsors {
+   background-color: #fff;
+   height: auto;
+   width: 100%;
+}
+
+#sponsors article {
+   padding: 20px 0;
+   text-align: center;
+   position: relative;
+}
+
+#sponsors p {
+   margin-top: 10px
+}
+
+#sponsors a {
+   color: #000;
+   font-size: 1.3em;
+}
+
+#sponsors img {
+   width: 99%;
+   margin: auto;
+   vertical-align: bottom;
+}
+
+#sponsors .back img {
+   margin-top: 30px;
+   position: relative;
+}
+
+@media (max-width: 450px) {
+   #sponsors a {
+      font-size: 1em;
+   }
+}
