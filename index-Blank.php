@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <?php
-   // ("https://raw.githubusercontent.com/riodw/bloomcon/master/bloomcon.xml"));
-   $BCxml = simplexml_load_file('bloomcon.xml');
-?>
+    // ("https://raw.githubusercontent.com/riodw/bloomcon/master/bloomcon.xml"));
+    $BCxml = simplexml_load_file('bloomcon.xml');
+   ?>
 <head>
    <meta charset="utf-8">
    <title>BLOOMCON | <?php echo $BCxml->date->month.' '.$BCxml->date->days_start.'-'.$BCxml->date->days_end; ?></title>
@@ -11,9 +11,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-   <meta name="keywords" content="bloomcon, BLOOMCON, bloom, con, Bloomsburg Con, Bloomsburg University, hacker, hackers, conference">
+   <meta name="keywords" content="Bloomcon, BLOOMCON, Bloom, CON, Bloomsburg Con, Bloomsburg University">
    <meta name="description" content="The Bloomsburg University Hacker Conference">
-   <meta name="author" content="Riodw">
+   <meta name="author" content="Unaxy">
 
    <!-- Favicon.png-->
    <link rel="shortcut icon" href="favicon.png">
@@ -22,29 +22,15 @@
    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
    <!-- Font-Awesome -->
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
    <!-- CSS ==========-->
    <!-- BOOTSTRAP -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-   
+
    <!-- MY CUSTOM CSS-->
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
-   <!--Navbar-->
-   <link href="css/nav.css" rel="stylesheet" type="text/css">
-   <!--About-->
-   <link href="css/about.css" rel="stylesheet" type="text/css">
-   <!--Schedule-->
-   <link href="css/Schedule.css" rel="stylesheet" type="text/css">
-   <!--Events-->
-   <link href="css/Event-Squares.css" rel="stylesheet" type="text/css">
-   <!--Sponsors-->
-   <link href="css/flip.css" rel="stylesheet" type="text/css">
-   <!--Contact-->
-   <link href="css/contact.css" rel="stylesheet" type="text/css">
-   <!--Footer-->
+   <!-- Footer Links - Location, Connect, About us -->
    <link href="css/FooterLinks.css" rel="stylesheet" type="text/css">
-   
    <!-- Matrix: Scrolling text -->
    <link href="css/Matrix.css" rel="stylesheet" type="text/css">
 
@@ -55,9 +41,25 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
    <style>
+      /* FOOTER -  */
+      footer {
+         padding-bottom: 15px;
+         background-color: #5a5a5a;
+         margin-top: 35px;
+      }
+      
+      footer a,
+      footer a:hover,
+      footer a:focus,
+      footer a:active {
+         outline: 0;
+         color: #FB5F67;
+      }
       /* Color of links (ie. Get Directions) */
+      
       .btn-outline:hover,
       .btn-outline:focus,
       .btn-outline:active,
@@ -69,7 +71,8 @@
    </style>
       <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
       <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
-      <!--css/nav.css-->
+      <link href="css/nav.css" rel="stylesheet" type="text/css">
+      <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
       <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
          <div class="container">
@@ -105,14 +108,16 @@
                   </li>
                </ul>
             </div>
+            <!-- /.navbar-collapse -->
          </div>
+         <!-- /.container -->
       </nav>
 
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <div id="logo" class="container" style="z-index:200;">
          <img class="center-block" src="images/huskblue.png" alt="logo">
-         <h1>BloomCON</h1>
+         <h1>Bloomcon</h1>
          <p><?php echo $BCxml->date->month.' '.$BCxml->date->days_start.'-'.$BCxml->date->days_end; ?> @ Bloomsburg University </p>
 
          <div style="float:none;text-align:center">
@@ -124,7 +129,9 @@
             <p>
                <span style="font-size:2em;">hack·er</span>
                <br>
-               <i>noun<br>plural noun: <strong>hackers</strong></i>
+               <i>noun<br>
+  				plural noun: <strong>hackers</strong></i>
+               <br>
             </p>
             <p style="padding-left:20px;">
                <strong>1.</strong> &nbsp;&nbsp;A malicious meddler who tries to discover sensitive information by poking around. Hence password hacker, network hacker.
@@ -142,13 +149,13 @@
 							text-decoration: underline;
 						}
 					</style>
-					<div class="prod col-md-4 col-sm-6 col-xs-12">
+					<div class="prod col-md-4 col-sm-6 col-xs-6">
 						<p><a data-toggle="modal" data-target="#cfp" href="#">Call for Papers</a></p>
 					</div>
-					<div class="prod col-md-4 col-sm-6 col-xs-12">
+					<div class="prod col-md-4 col-sm-6 col-xs-6">
 						<p><a class="page-scroll" href="#sponsors">Sponsors</a></p>
 					</div>
-					<div class="prod col-md-4 col-sm-12 col-xs-12">
+					<div class="prod col-md-4 col-sm-6 col-xs-12">
 						<p><a href="/archive">Archive</a></p>
 					</div>
 				</div>
@@ -157,8 +164,10 @@
       
       <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
       <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
-      <!-- css/about.css -->
+      <link href="css/about.css" rel="stylesheet" type="text/css">
       <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
+      <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
+
       <div id="about" class="container">
          <div class="content-center" style="text-align:center">
             <!-- content -->
@@ -166,20 +175,26 @@
                <!-- content -->
                <p style="font-size:5em"><i class="fa fa-expeditedssl"></i></p>
             </div>
-            <h1>ABOUT BLOOMCON</h1>
+            <h1 id="About_Title">ABOUT BLOOMCON</h1>
          </div>
          <div class="container">
-            <h3>The second BloomCON Forensics and Security conference!<br>Will be held March 24-25, 2017<br>At Bloomsburg University in Kehr Union, PA (USA).<br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber security.<br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity challenges for prizes.</h3>
+            <h3 id="About_Content" style="font-weight:200; text-align:center;">Hosted at Bloomsburg University in Kehr Union.
+            <br>
+            BloomCon brings together a whole variety of organisms most of which are humans, and interested in cyber security.
+            <br>
+            There will be many speakers, and you will have a chance to compete in unique cybersecurity challenges for prizes.</h3>
          </div>
       </div>
-      
       <hr style="width:60%">
-      
+
+
       <!-- SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule -->
       <!-- SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule -->
-      <!--css/Schedule.css-->
+      <link href="css/Schedule.css" rel="stylesheet" type="text/css">
       <!-- SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule -->
-      <div id="schedule">
+      <!-- SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule - SCHEDULE - Schedule -->
+
+      <div id="Schedule">
          <div class="content-center" style="text-align:center">
             <div class="container" id="u7564-4">
                <p style="font-size:5em"><i class="fa fa-clock-o"></i></p>
@@ -200,74 +215,86 @@
          </section>
          
          <?php
-            $num_days = 1;
-            foreach ($BCxml->schedule->children() as $day) {
-               echo '<section id="DAY'.$num_days.'" class="container">';
-               
-               foreach ($day->children() as $Activities) {
-                  $split = 1;
-                  echo '<article><div class="time col-xs-2"><p><i class="fa fa-'.$Activities['fa'].'"></i></p>';
-                  echo '<p>'.$Activities['start'].'</p></div>';
-                  
-                  $num = $Activities->count();
-                  
-                  if($num == 1) {
-                  echo '<div class="eventTime col-xs-10 col-xs-push-2">';
-                     echo '<div class="col-xs-12">
-                           <h3>'.$Activities->activity->title.'</h3>
-                           <p>'.$Activities->activity->content.'</p>
-                       </div>';
-                  } else {
-                     foreach ($Activities->children() as $activity) {
-                        $num = 1;
-                        echo '<div class="eventTime col-xs-5';
-                        if($num == 1)
-                           echo ' col-xs-push-2">';
-                        echo '<div class="col-xs-12"><h3>'.$activity->title.'</h3><p>'.$activity->content.'</p></div></div>';
-                        $num++;
-                     }
-                  }
-                  echo '</article>';
-               }
-               if($num_days == 1) {
-                  echo '
-                  <article data-toggle="modal" data-target="#After_P_card" style="cursor:pointer;">
-                     <div class="announcement col-xs-12">
-                        <div class="col-xs-12"><h3>After Party - 6:00 PM</h3>
-                           <p>Party with <b>Dual Core</b> at <b><a href="https://www.facebook.com/goodolddaysbar" style="color:#fff;text-decoration:underline;" target="new">Good Old Days</a></b>.</p>
-                           <p><a class="btn btn-danger btn-lg"><i class="fa fa-info-circle"></i> After Party Info</a></p>
-                        </div>
-                     </div>
-                  </article>';
-               }
-               if($num_days == 2) {
-                  echo '
-                  <article>
-                     <div class="announcement col-xs-12">
-                        <div class="col-xs-12">
-                           <h3>Closing Ceremony - 5:30 PM</h3>
-                           <p>Stay for competition prizes and giveaways!</p>
-                        </div>
-                     </div>
-                  </article>';
-               }
-               echo '</section>';
-               $num_days++;
-            }
-            ?>
-         <hr style="width:60%;">
-      </div>
+
+    $num_days = 1;
+    foreach ($BCxml->schedule->children() as $day) {
+      echo '<section id="DAY'.$num_days.'" class="container">';
       
+      foreach ($day->children() as $Activities) {
+        $split = 1;
+        echo '<article><div class="time col-xs-2"><p><i class="fa fa-'.$Activities['fa'].'"></i></p>';
+        echo '<p>'.$Activities['start'].'</p></div>';
+        
+        $num = $Activities->count();
+        
+        if($num == 1) {
+          echo '<div class="eventTime col-xs-10 col-xs-push-2">';
+            echo '<div class="col-xs-12">
+                  <h3>'.$Activities->activity->title.'</h3>
+                  <p>'.$Activities->activity->content.'</p>
+              </div>';
+        } else {
+          foreach ($Activities->children() as $activity)
+          {
+            $num = 1;
+            echo '<div class="eventTime col-xs-5';
+            if($num == 1) echo ' col-xs-push-2">';
+              echo '<div class="col-xs-12">
+                    <h3>'.$activity->title.'</h3>
+                    <p>'.$activity->content.'</p>
+                </div></div>';
+            $num++;
+          }
+        }
+        echo '</article>';
+      }
+      if($num_days == 1) {
+        echo '<!-- article data-toggle="modal" data-target="#After_P_card" style="cursor:pointer;">
+                <div class="announcement col-xs-12">
+                  <div class="col-xs-12">
+                    <h3>After Party - 6:00 PM</h3>
+                    <p>Party with <b>Dual Core</b> at <b><a href="https://www.facebook.com/goodolddaysbar" style="color:#fff;text-decoration:underline;" target="new">
+                    Good Old Days</a></b>.</p>
+                    </p>
+                    <p>
+                    <a class="btn btn-danger btn-lg"><i class="fa fa-info-circle"></i> More Info</a>
+                    </p>
+                  </div>
+                </div>
+              </article -->';
+      }
+      if($num_days == 2) {
+        echo '<!-- article>
+                <div class="announcement col-xs-12">
+                  <div class="col-xs-12">
+                    <h3>Closing Ceremony - 5:30 PM</h3>
+                    <p>Stay for competition prizes and giveaways!</p>
+                  </div>
+                </div>
+            </article -->';
+      }
+      echo '</section>';
+      $num_days++;
+    }
+
+  ?>
+
+            <hr style="width:60%;">
+      </div>
+
       <!-- EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events -->
       <!-- Event Squares - Pic, Text, Hover -->
-      <!--css/Event-Squares.css-->
+      <link href="css/Event-Squares.css" rel="stylesheet" type="text/css">
+      <!-- EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events -->
       <!-- EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events - EVENTS - events -->
       <div id="events">
          <div class="content-center" style="text-align:center;margin-top:20px;">
+            <!-- content -->
             <div class="container" id="u7564-4">
+               <!-- content -->
                <p style="font-size:5em"><i class="fa fa-bolt"></i></p>
             </div>
-            <h1 id="Events_Title"><?php echo $BCxml->events->title; ?></h1>
+            <h1 id="Events_Title">EVENTS</h1>
             <hr style="width:60%;">
          </div>
          <div class="container">
@@ -276,28 +303,28 @@
                   <img src="images/pic01.jpg" alt=""/>
                </a>
                <div class="content col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->first->title; ?></h3>
-                  <p><?php echo $BCxml->events->first->content; ?></p>
+                  <h3 style="color:#428bca;">Wireless Hacking Challenge</h3>
+                  <p>If endurance, skill, and strategy were the only classifications required for an activity to be considered sport, competitive hacking could be the newest "sport" gaining popularity.</p>
                </div>
             </section>
             <section class="event">
                <div class="content hideWhenSmall col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->second->title; ?></h3>
-                  <p><?php echo $BCxml->events->second->content; ?></p>
+                  <h3 style="color:#428bca;">Digital Forensics/Incident Response Competition</h3>
+                  <p>You do stuff, like hacking.</p>
                </div>
                <a class="image icon fa-search col-xs-12 col-sm-6">
                   <img src="images/pic02.jpg" alt="" /></a>
                <div class="content hideWhenBig col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->second->title; ?></h3>
-                  <p><?php echo $BCxml->events->second->content; ?></p>
+                  <h3 style="color:#428bca;">Digital Forensics/Incident Response Competition</h3>
+                  <p>You do stuff, like hacking.</p>
                </div>
             </section>
             <section class="event">
                <a class="image icon fa-unlock col-xs-12 col-sm-6">
                   <img src="images/pic03.jpg" alt="" /></a>
                <div class="content col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->third->title; ?></h3>
-                  <p><?php echo $BCxml->events->third->content; ?></p>
+                  <h3 style="color:#428bca;">Lockpick Village</h3>
+                  <p>Social engineering is the art of manipulating people so they give up confidential information. The types of information these criminals are seeking can vary, but when individuals are targeted the criminals are usually trying to trick you into giving them your passwords.</p>
                </div>
             </section>
          </div>
@@ -312,8 +339,9 @@
          <hr style="width:60%;">
          <div class="container" style="float:none;text-align:center">
             <h1>Get Your Tickets</h1>
-            <p>Only 500 tickets total<br>Powered by Eventbrite</p>
-            <a href="https://www.eventbrite.com/e/bloomcon-0x02-forensics-and-security-conference-tickets-28842165694" type="button" class="btn btn-primary btn-lg">Buy Tickets</a>
+            <p>Only 500 tickets total
+               <br>Powered by Eventbrite</p>
+            <a href="https://www.eventbrite.com/e/bloomcon-forensics-and-security-conference-2016-tickets-19458398594#" type="button" class="btn btn-primary btn-lg">Buy Tickets</a>
          </div>
          <hr style="width:60%;">
       </section>
@@ -332,180 +360,137 @@
                <h1 id="Date_Day" style="color:white;"><?php echo $BCxml->date->days_start.' - '.$BCxml->date->days_end; ?></h1>
                <h2 id="Date_Year" style="color:#ECECEC;"><?php echo $BCxml->date->year; ?></h2>
             </div>
+            
             <div id="videoContainer">
                <video autoplay id="aboutImage" poster="images/Matrix.jpg" loop>
                   <source src="Matrix.mp4" type="video/mp4">
+                  <!--source src="cement_crew_works.mp4" type="video/mp4"-->
               </video>
             </div>
+            <!--div id="aboutImage" style="position: absolute; z-index: 1; left: 0px; top: 0px; width: 100%; height: 100%; background-image: url(NuConPictures/photo_15.jpg); background-size: cover; background-position: 0% 0%;"></div-->
          </div>
       </div>
 
 
       <!-- Sponsors - SPONSORS -Sponsors - SPONSORS - Sponsors - SPONSORS - Sponsors - SPONSORS-->
       <!-- Sponsors - SPONSORS -Sponsors - SPONSORS - Sponsors - SPONSORS - Sponsors - SPONSORS-->
-      <!--css/flip.css-->
-      <!-- Sponsors - SPONSORS -Sponsors - SPONSORS - Sponsors - SPONSORS - Sponsors - SPONSORS-->
+      <link href="css/flip.css" rel="stylesheet" type="text/css">
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
       <section id="sponsors" style="position:relative;">
-         <div class="content-center" style="padding-top:25px;">
-            <h1><?php echo $BCxml->sponsors->title; ?></h1>
-            <hr style="width:60%; border-color:black;">
+         <div class="content-center" style="text-align:center;padding-top:25px;">
+            <h1 id="Sponsors_Title">SPONSORS</h1>
+            <hr style="width:60%;border-color:black">
+         </div>
+         <div class="content-center" style="text-align:center;">
+            <h2 style="font-weight:100">BLACK <i class="fa fa-diamond"></i> DIAMOND</h2>
+            <hr style="width:40%;border-color:black">
+         </div>
+         <div class="container">
+            <article id="bloomsburgU" class="col-xs-12">
+               <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="background-color:#000; box-shadow: 0 0 50px 5px #000;">
+                  <div class="flipper">
+                     <div class="front">
+                        <h2 style="font-weight:100; color:#000">Diamond Sponsor</h2>
+                     </div>
+                     <div class="back">
+                        <p>$1000</p>
+                        <p>Previous Sponsors:</p>
+                        <ul style="text-align:left;">
+                           <li>Dell</li>
+                           <li>Check Point</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </article>
          </div>
          
-         <?php
-            foreach ($BCxml->sponsors->levels->children() as $level) {
-               echo '
-               <div class="content-center">
-                  <h2 style="color:#'. $level['color'] .'">'. $level['name'] .'</h2>
-                  <hr style="border-color:#'. $level['color'] .';">
+         <!-- PLATINUM -->
+         <div class="content-center" style="text-align:center;">
+            <h2 style="font-weight:100;color:#C0C0C0">PLATINUM</h2>
+            <hr style="width:40%;border-color:#C0C0C0">
+         </div>
+         <div class="container">
+            <article id="bloomsburgU" class="col-xs-6">
+               <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="background-color:#74202F; box-shadow: 0 0 50px 5px #C0C0C0;">
+                  <div class="flipper">
+                     <div class="front">
+                        <img src="images/sponsors/bu_logo.jpg">
+                     </div>
+                     <div class="back">
+                        <img src="images/sponsors/huskie.png" style="width:25%;">
+                        <p>
+                           <a href="SOURCE.zip">EASTER EGG!!!</a>
+                           <br>
+                           <a href="http://www.bloomu.edu/cost" target="new">@bloomu.edu</a>
+                        </p>
+                     </div>
+                  </div>
                </div>
-               <div class="container">';
-               
-               $total = $level->count();
-               $count = 1;
-               $count2 = $level->count();
-               $count3 = 0;
-               
-               while($total >= 3) {
-                  
-                  echo '<div class="row">';
-                  
-                  foreach ($level->children() as $company) {
-                     echo '
-                     <article class="col-xs-12 col-sm-4">
-                        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
-                           <div class="flipper">
-                              <div class="front">
-                                 <img src="images/sponsors/'. $company->front .'" style="';
-                                 if($company->front['width'] != '')
-                                    echo 'width:'. $company->front['width'] .'%;';
-                                 if($company->front['margin'] != '')
-                                    echo 'margin-top:'. $company->front['margin'] .'px;';
-                                 echo '">
-                              </div>
-                              <div class="back">
-                                 <img src="images/sponsors/'. $company->back .'" style="';
-                                 if($company->back['width'] != '')
-                                    echo 'width:'. $company->back['width'] .'%;';
-                                 if($company->back['margin'] != '')
-                                    echo 'margin-top:'. $company->back['margin'] .'px;';
-                                 echo '">';
-                                 echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </article>';
-                     
-                     $count++;
-                     $count2--;
-                     $total--;
-                     if($count > 3) break;
-                  }
-                  $count = 1;
-                  $count2 = $level->count();
-                  $count3++;
-                  echo '</div>';
-               }
-               
-               if($total == 2) {
-                  echo '<div class="row">';
-                  $count = 0;
-                  foreach ($level->children() as $company) {
-                     $count++;
-                     if($count3 != 0) {
-                        if($count == 3) {
-                           $count = 0;
-                           $count3--;
-                        }
-                        continue;
-                     }
-                     
-                     echo '
-                     <article class="col-xs-12 col-sm-6">
-                        <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
-                           <div class="flipper">
-                              <div class="front">
-                                 <img src="images/sponsors/'. $company->front .'" style="';
-                                 if($company->front['width'] != '')
-                                    echo 'width:'. $company->front['width'] .'%;';
-                                 if($company->front['margin'] != '')
-                                    echo 'margin-top:'. $company->front['margin'] .'px;';
-                                 echo '">
-                              </div>
-                              <div class="back">
-                                 <img src="images/sponsors/'. $company->back .'" style="';
-                                 if($company->back['width'] != '')
-                                    echo 'width:'. $company->back['width'] .'%;';
-                                 if($company->back['margin'] != '')
-                                    echo 'margin-top:'. $company->back['margin'] .'px;';
-                                 echo '">';
-                                 echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
-                              </div>
-                           </div>
-                        </div>
-                     </article>';
-                     
-                     $count++;
-                     $count2--;
-                     $total--;
-                     if($count > 3) break;
-                  }
-                  $count = 1;
-                  $count2 = $level->count();
-                  $count3++;
-                  echo '</div>';
-               }
-               
-               if($total == 1) {
-                  echo '<div class="row">';
-                  $count = 0;
-                  foreach ($level->children() as $company) {
-                     $count++;
-                     if($count != $count2) continue;
-                        
-                     echo '
-                        <article class="col-xs-12 col-sm-12">
-                           <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
-                              <div class="flipper">
-                                 <div class="front">
-                                    <img src="images/sponsors/'. $company->front .'" style="';
-                                    if($company->front['width'] != '')
-                                       echo 'width:'. $company->front['width'] .'%;';
-                                    if($company->front['margin'] != '')
-                                       echo 'margin-top:'. $company->front['margin'] .'px;';
-                                    echo '">
-                                 </div>
-                                 <div class="back">
-                                    <img src="images/sponsors/'. $company->back .'" style="';
-                                    if($company->back['width'] != '')
-                                       echo 'width:'. $company->back['width'] .'%;';
-                                    if($company->back['margin'] != '')
-                                       echo 'margin-top:'. $company->back['margin'] .'px;';
-                                    echo '">';
-                                    echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
-                                 </div>
-                              </div>
-                           </div>
-                        </article>
-                     </div>';
-                  }
-               }
-               
-               echo '</div>';
-            }
-         ?>
-         
+            </article>
+            <article id="bloomsburgU" class="col-xs-6">
+               <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="background-color:#C0C0C0; box-shadow: 0 0 50px 5px #C0C0C0;">
+                  <div class="flipper">
+                     <div class="front">
+                        <h2 style="font-weight:100; color:#444">Platinum Sponsor</h2>
+                     </div>
+                     <div class="back">
+                        <p>$500</p>
+                        <p>Previous Sponsors:</p>
+                        <ul style="text-align:left;">
+                           <li>GrrCON</li>
+                           <li>Innovative Development</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </article>
+         </div>
+
+         <!-- BRONZE -->
+         <div class="content-center" style="text-align:center;">
+            <h2 style="font-weight:100;color:#9C6963">BRONZE</h2>
+            <hr style="width:40%;border-color:#9C6963">
+         </div>
+         <div class="container">
+            <article id="bloomsburgU" class="col-xs-12">
+               <div class="flip-container" ontouchstart="this.classList.toggle('hover');" style="background-color:#9C6963; box-shadow: 0 0 50px 5px #9C6963;">
+                  <div class="flipper">
+                     <div class="front">
+                        <h2 style="font-weight:100;color:#9C6963">Bronze Sponsor</h2>
+                     </div>
+                     <div class="back">
+                        <p>$250</p>
+                        <p>Previous Sponsors:</p>
+                        <ul style="text-align:left;">
+                           <li>G3 Technologies</li>
+                           <li>Noblis</li>
+                           <li>Brimor Labs</li>
+                           <li>Liticode</li>
+                           <li>Pluralsight</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </article>
+         </div>
          <div class="content-center" style="text-align:center; padding-top:25px; color:#fff; background-color: #74202F; margin-top:20px">
             <h2 id="Sponsors_Email_Title">BECOME A SPONSOR</h2>
-			   <a href="#" data-toggle="modal" data-target="#sponsor" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">See All Sponsorship Opportunities</a>
-            <p style="font-weight:200;font-size:1.3em;">Email: <?php echo $BCxml->sponsors->email; ?><br></p>
+            <p style="font-weight:200;font-size:1.3em;">Email: <span id="Sponsors_Email" style=""><?php echo $BCxml->sponsors->email; ?></span>
+               <br>
+            </p>
             <hr style="width:60%;">
          </div>
       </section>
-      
+
+
       <!-- CONTACT - contact - CONTACT - contact - CONTACT - contact - CONTACT - contact -->
       <!-- CONTACT - contact - CONTACT - contact - CONTACT - contact - CONTACT - contact -->
-      <!--css/contact.css-->
+      <link href="css/contact.css" rel="stylesheet" type="text/css">
       <!-- CONTACT - contact - CONTACT - contact - CONTACT - contact - CONTACT - contact -->
+      <!-- CONTACT - contact - CONTACT - contact - CONTACT - contact - CONTACT - contact -->
+
       <section id="contact">
          <div class="container">
             <div class="row">
@@ -559,8 +544,6 @@
 
       <!-- LOCATION - location - LOCATION - location - LOCATION - location - LOCATION - location  -->
       <!-- LOCATION - location - LOCATION - location - LOCATION - location - LOCATION - location  -->
-      <!-- css/FooterLinks.css -->
-      <!-- LOCATION - location - LOCATION - location - LOCATION - location - LOCATION - location  -->
       <footer id="where" class="text-center">
          <div class="footer-above" style="box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);z-index:1000;">
             <div class="container">
@@ -583,7 +566,7 @@
                   </div>
                   <div class="footer-col col-md-4">
                      <h3>Find Out More</h3>
-                     <p style="min-width: 310px;">Email us.<br><span style="color:#FB5F67;"><?php echo $BCxml->sponsors->email; ?></span></p>
+                     <p style="min-width: 310px;">Email us.<br><span style="color:#FB5F67;">info@bloomcon.com</span></p>
                   </div>
                </div>
             </div>
@@ -606,10 +589,12 @@
                }
             }
          </style>
+         <!-- MAP - map - MAP - map - MAP - map - MAP - map - MAP - map - MAP - map - MAP -->
          <!-- GOOGLE MAPS -->
          <script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
+
             function init() {
                // The latitude and longitude to center the map (always required)
                var myLatlng = new google.maps.LatLng(41.0065621, -76.4523345);
@@ -625,26 +610,34 @@
                   // This is where you would paste any style found on Snazzy Maps.
                   
                };
+
                // Create the Google Map using out element and options defined above
                var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
                var contentString = '<div id="content" style="color:#1c1c1c;"><h5>BloomCon</h5><p>@ Bloomsburg University</p></div>';
                var infowindow = new google.maps.InfoWindow({
                   content: contentString
                });
+
                var image = 'marker.png';
+
                var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
                   icon: image
                });
+
                // To add the marker to the map, call setMap();
                marker.setMap(map);
+
                google.maps.event.addListener(marker, 'click', function() {
                   infowindow.open(map, marker);
                });
+
             }
          </script>
-         <div id="map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);"></div>
+         <div id="map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
+         </div>
          <!-- /.Google Maps -->
          <br>
          <p style="font-weight:100;letter-spacing:.45em;">&copy;Bloomcon <span id="dateTimeValue2"></span></p>
@@ -653,12 +646,14 @@
             window.onload = function() {
                var dateYear = new Date();
                var formattedDateYear = dateYear.getFullYear();
+
                document.getElementById("dateTimeValue2").innerHTML = formattedDateYear;
             };
          </script>
-         
-      </footer><!-- ./Footer -->
-      
+
+         <!-- ./Footer -->
+
+      </footer>
       <div id="matrixHolder" class="matrix-container">
          <div id="matrix">
             <div class="t1" style="left:0px;">Rio Weber is SO COOL!</div>
@@ -706,6 +701,7 @@
             <div class="t6" style="left:500px;">nice shadow effect</div>
             <div class="t5" style="left:510px;">amazing windows7 menu with css3</div>
             <div class="t6" style="left:520px;">Live Image Resize Script With PHP</div>
+
             <div class="t1" style="left:2px;">TestTestTestTest Test Test Test</div>
             <div class="t5" style="left:25px;">TestTestTestTest Test Test Test</div>
             <div class="t1" style="left:60px;">TestTestTestTest Test Test Test</div>
@@ -726,7 +722,8 @@
             <div class="t0" style="left:520px;">Yall should buy me some Bit Coin!</div>
          </div>
       </div>
-      
+
+      <!-- MODALS -->
       <!-- MODALS -->
       <!-- MODALS -->
       <div id="cfp" class="modal fade" role="dialog">
@@ -777,9 +774,13 @@
                         <li>minimal fame, glory, and possibly even notorietyp</li>
                         <li>bragging rights for speaking at BloomCON</li>
                      </ul>
+                     
                      <br>
+                     
                      <h4>Please be aware that we are unable to sponsor travel accomodations at this time. That said, your company (if any) will be listed as a bronze sponsor in all event materials and will be permitted a booth at the event.  We may have limited funding to cover hotel rooms if needed.</h4>
+                     
                      <br>
+                     
                      <h4>Here is what we have planned so far:</h4>
                      <ul style="text-align:left; max-width:300px; margin:0 auto;">
                         <li>Lock picking</li>
@@ -789,73 +790,6 @@
                         <li>Capture the Flag</li>
                      </ul>
                   </div>
-               </div>
-               <div class="modal-footer" style="clear: both;">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </div>
-            </div>
-         </div>
-      </div>
-	  
-	  <div id="sponsor" class="modal fade" role="dialog">
-         <div class="col-xs-11 col-sm-7" style="margin: auto;float:none;">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Sponsorship Levels</h4>
-               </div>
-               <div class="modal-body col-xs-12" style="text-align:center;">
-                  <div class="content-center" style="text-align:center;">
-                     <h2>SPONSORSHIP <i class="fa fa-diamond"></i> LEVELS</h2>
-                     <hr style="width:55%;">
-                  </div>
-                  <h4>Sponsorship is available at the following levels:</h4>
-                  <br>
-                  <div style="max-width:600px; margin:0 auto; clear:both;">
-                     <h4>Diamond $2500:</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a diamond sponsor in all event materials</li>
-                        <li>VIP access and swag</li>
-                        <li>Largest booth space (if desired)</li>
-                        <li>Ten free badges</li>
-                     </ul>
-					      <h4>Platinum $1500:</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a platinum sponsor in all event materials</li>
-                        <li>VIP access and swag</li>
-                        <li>Larger booth space (if desired)</li>
-                        <li>Five free badges</li>
-                     </ul>
-					      <h4>Gold $750:</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a gold sponsor in all event materials</li>
-                        <li>Standard booth space (if desired)</li>
-                        <li>Larger booth space (if desired)</li>
-                        <li>Four free badges</li>
-                     </ul>
-				         <h4>Silver $500:</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a silver sponsor on website</li>
-                        <li>Standard booth space (if desired)</li>
-                        <li>Larger booth space (if desired)</li>
-                        <li>Three free badges</li>
-                     </ul>
-					      <h4>Bronze $250:</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a bronze sponsor on website</li>
-                        <li>Standard booth space (if desired)</li>
-                        <li>Two free badges</li>
-                        <li>Three free badges</li>
-                     </ul>
-					      <h4>Copper $100: (non-profits only)</h4>
-                     <ul style="text-align:left; margin:0 auto;">
-                        <li>Listed as a copper sponsor on website</li>
-                        <li>Standard booth space (if desired)</li>
-                        <li>One Free badge</li>
-                     </ul>
-                  </div>
-				  <br>
-				  <a href="./bloomcon0x02-sponsor.docx" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">Download File to see all details</a>
                </div>
                <div class="modal-footer" style="clear: both;">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -876,7 +810,9 @@
                </div>
                <div class="modal-body col-xs-12" style="text-align:center; height:750px;">
                   <br>
-                  <p>The After Party will be held at <a href="https://www.facebook.com/goodolddaysbar" target="new">Good Old Days Bar</a> featuring <a href="http://dualcoremusic.com/nerdcore/" target="new">Dual Core</a>.</p>
+                  <p>The After Party will be held at <a href="https://www.facebook.com/goodolddaysbar" target="new">Good Old Days Bar</a> featuring <a href="http://dualcoremusic.com/nerdcore/" target="new">Dual Core</a>.
+                  </p>
+
                   <div class="content-center" style="text-align:center;">
                      <h2>AFTER <i class="fa fa-beer"></i> PARTY</h2>
                      <hr style="width:55%;">
@@ -899,7 +835,10 @@
                                     <h5><i class="fa fa-clock-o fa-fw text-muted"></i> Mon-Sun: 11:00 am - 2:00 am</h5>
                                     <h5><i class="fa fa-map-marker fa-fw text-muted"></i> 501 East St, Bloomsburg</h5>
                                     <h5><i class="fa fa-phone fa-fw text-muted"></i> (570) 784-6269</h5>
-                                    <h4><a href="https://www.facebook.com/goodolddaysbar/menu/?p_ref=pa" target="new"><i class="fa fa-file-text-o fa-fw text-muted"></i>Menu »</a></h4>
+                                    <h4>
+                                       <a href="https://www.facebook.com/goodolddaysbar/menu/?p_ref=pa" target="new">
+                                          <i class="fa fa-file-text-o fa-fw text-muted"></i>Menu »</a>
+                                    </h4>
                                  </div>
                                  <div style="display:inline-block;">
                                     <a href="https://www.facebook.com/goodolddaysbar/" class="btn btn-social-icon btn-facebook" style="color:#fff; background-color:#3B5998;" target="new"><i class="fa fa-facebook"></i></a>
@@ -943,7 +882,10 @@
                                     <h5><i class="fa fa-youtube-play fa-fw text-muted"></i> youtube.com/user/dualcoremusic</h5>
                                     <h5><i class="fa fa-link fa-fw text-muted"></i> dualcoremusic.com</h5>
                                     <br>
-                                    <h4><a href="https://www.youtube.com/watch?v=FoUWHfh733Y" target="new"><i class="fa fa-music fa-fw text-muted"></i> All The Things »</a></h4>
+                                    <h4>
+                                       <a href="https://www.youtube.com/watch?v=FoUWHfh733Y" target="new">
+                                          <i class="fa fa-music fa-fw text-muted"></i> All The Things »</a>
+                                    </h4>
                                  </div>
                                  <div style="display:inline-block;">
                                     <a href="https://www.facebook.com/Dual-Core-119938221531/" class="btn btn-social-icon btn-facebook" style="color:#fff; background-color:#3B5998;" target="new"><i class="fa fa-facebook"></i></a>
@@ -975,20 +917,23 @@
             </div>
          </div>
       </div>
-      <!--./ MODALS -->
-      <!--./ MODALS -->
+      <!-- MODALS -->
+      <!-- MODALS -->
+      <!-- MODALS -->
 
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
       <!-- Bootstrap Core JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-      
+
       <script>
          function showHack() {
             if($("#hacker").height() == 0) {
                $("#hacker").css("height", "250px");
                $("#matrixHolder").css("height", "790px");
-            } else {
+            }
+            else {
                $("#hacker").css("height", "0");
                $("#matrixHolder").css("height", "645px");
             }
@@ -997,19 +942,23 @@
 
       <script>
          // Change Schedule Buttons
-         $("#schedule .days article div").click(function() {
-            $("#schedule .days article div").removeClass("active");
+         $("#Schedule .days article div").click(function() {
+            $("#Schedule .days article div").removeClass("active");
             $(this).addClass("active");
-            if($("#schedule .days article div:first-of-type").hasClass("active")) {
+            if($("#Schedule .days article div:first-of-type").hasClass("active")) {
                $("#DAY1").show();
                $("#DAY2").hide();
                //alert( "Handler for .click() called." );
-            } else {
+            }
+            else {
                $("#DAY1").hide();
                $("#DAY2").show();
             }
          });
       </script>
+
+      <!-- SCRIPT FOR THE XML FILE -->
+      <!--<script src="js/load_xml.js"></script>-->
 
       <script src="js/jqBootstrapValidation.js"></script>
       <script src="js/contact_me.js"></script>
@@ -1020,7 +969,10 @@
       <script src="js/jquery.easing.min.js"></script>
       <!-- Custom Theme JavaScript -->
       <script src="js/grayscale.js"></script>
-      
+
+
+
+
       <script>
          (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -1033,9 +985,11 @@
             a.src = g;
             m.parentNode.insertBefore(a, m)
          })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
          ga('create', 'UA-61756765-2', 'auto');
          ga('send', 'pageview');
       </script>
 
 </body>
+
 </html>
