@@ -389,7 +389,7 @@
                                  if($company->back['margin'] != '')
                                     echo 'margin-top:'. $company->back['margin'] .'px;';
                                  echo '">';
-                                 echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
+                                 echo '<p><a href="http://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
                               </div>
                            </div>
                         </div>
@@ -438,7 +438,7 @@
                                  if($company->back['margin'] != '')
                                     echo 'margin-top:'. $company->back['margin'] .'px;';
                                  echo '">';
-                                 echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
+                                 echo '<p><a href="http://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
                               </div>
                            </div>
                         </div>
@@ -481,7 +481,7 @@
                                     if($company->back['margin'] != '')
                                        echo 'margin-top:'. $company->back['margin'] .'px;';
                                     echo '">';
-                                    echo '<p><a href="https://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
+                                    echo '<p><a href="http://www.'. $company->link .'" target="new">@'. $company->link .'</a></p>
                                  </div>
                               </div>
                            </div>

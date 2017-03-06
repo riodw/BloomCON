@@ -65,6 +65,14 @@
             </company>
          </level>
          
+         <level name="Gold" color="EEC900">
+            <company color="ed1b2e">
+               <front width="93" margin="45">TM.png</front>
+               <back width="79" margin="38">TM.png</back>
+               <link>TMprotection.com</link>
+            </company>
+         </level>
+         
          <level name="Silver" color="C0C0C0">
             <company color="0e763c">
                <front width="" margin="10">TrustedSec.png</front>
