@@ -84,20 +84,25 @@
          </level>
          
          <level name="Silver" color="C0C0C0">
-            <company color="0e763c">
-               <front width="" margin="10">TrustedSec.png</front>
-               <back width="91" margin="12">TrustedSec2.png</back>
-               <link>TrustedSec.com</link>
-            </company>
             <company color="2d3f96">
                <front width="97" margin="65">AppalachiaTech.jpg</front>
                <back width="" margin="35">AppalachiaTech2.jpg</back>
                <link>AppalachiaTech.com</link>
             </company>
+            <company color="0e763c">
+               <front width="" margin="10">TrustedSec.png</front>
+               <back width="91" margin="12">TrustedSec2.png</back>
+               <link>TrustedSec.com</link>
+            </company>
             <company color="085c91">
                <front width="" margin="">G3.png</front>
                <back width="93" margin="">G3Tech.jpg</back>
                <link>G3ti.net</link>
+            </company>
+            <company color="004a80">
+               <front width="97" margin="60">InnoTek.png</front>
+               <back width="" margin="40">InnoTek2.jpg</back>
+               <link>ConsultInnoTek.com</link>
             </company>
          </level>
          
@@ -106,11 +111,6 @@
                <front width="95" margin="4">FireEye.jpg</front>
                <back width="" margin="">FireEye2.png</back>
                <link>FireEye.com</link>
-            </company>
-            <company color="004a80">
-               <front width="97" margin="60">InnoTek.png</front>
-               <back width="" margin="40">InnoTek2.jpg</back>
-               <link>ConsultInnoTek.com</link>
             </company>
             <company color="fe000c">
                <front width="" margin="53">Citrix2.gif</front>
