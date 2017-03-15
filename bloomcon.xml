@@ -10,19 +10,169 @@
    <schedule name="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
-         <Activities start="TBA" end="8:30 AM" fa="check">
+         <Activities start="7:30 AM" end="8:00 AM" fa="arrow-up">
             <activity>
-               <title>To Be Announced</title>
-               <content>Check back later for the full listing!</content>
+               <title>Setup</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="9:00 AM" fa="sign-in">
+            <activity>
+               <title>Registration</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="9:00 AM" end="10:00 AM" fa="user">
+            <activity>
+               <title>Keynote Speaker: </title>
+               <content>TBA</content>
+            </activity>
+         </Activities>
+         <Activities start="10:00 AM" end="11:00 AM" fa="check">
+            <activity>
+               <title>Advanced Forensics</title>
+               <content>Brian Coleman</content>
+            </activity>
+            <activity>
+               <title>TBA</title>
+               <content>Fred Reck</content>
+            </activity>
+         </Activities>
+         <Activities start="11:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>The first 48: All your data</title>
+               <content>Chad Gough</content>
+            </activity>
+            <activity>
+               <title>Deleted Evidence</title>
+               <content>Dave Pany</content>
+            </activity>
+         </Activities>
+         <Activities start="12:00 PM" fa="cutlery">
+            <activity>
+               <title>LUNCH</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Cox vs. BMG</title>
+               <content>Alex Urbelis</content>
+            </activity>
+            <activity>
+               <title>NTFS Sparse Files</title>
+               <content>John Riley</content>
+            </activity>
+         </Activities>
+         <Activities start="2:00 PM" end="3:00 PM" fa="check">
+            <activity>
+               <title>TBA</title>
+               <content>Billy Ebersole</content>
+            </activity>
+            <activity>
+               <title>Domain Pop Data for FREE</title>
+               <content>Erica MacieJewski</content>
+            </activity>
+         </Activities>
+         <Activities start="3:00 PM" end="4:00 PM" fa="check">
+            <activity>
+               <title>Inspect Your Shorts</title>
+               <content>Anthony Spina</content>
+            </activity>
+            <activity>
+               <title>TBA</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="4:00 PM" end="5:00 PM" fa="check">
+            <activity>
+               <title>Scalable Vuln Mgmt</title>
+               <content>Katie Perry</content>
+            </activity>
+            <activity>
+               <title>Password Hash Reversal</title>
+               <content>Mark Sanders</content>
             </activity>
          </Activities>
       </day>
       <!-- DAY 2 -->
       <day name="Day 2">
-         <Activities start="TBA" end="8:30 AM" fa="wheelchair">
+         <Activities start="7:30 AM" end="8:00 AM" fa="arrow-up">
             <activity>
-               <title>I said, TO BE ANNOUNCED!</title>
-               <content>Did you really think there would be something different here?</content>
+               <title>Setup</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="9:00 AM" fa="sign-in">
+            <activity>
+               <title>Registration</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="9:00 AM" end="10:00 AM" fa="check">
+            <activity>
+               <title>Windows Events Logs</title>
+               <content>Nage Guagenti</content>
+            </activity>
+            <activity>
+               <title>What can my logs tell me?</title>
+               <content>Art Petrochenko</content>
+            </activity>
+         </Activities>
+         <Activities start="10:00 AM" end="10:30 AM" fa="check">
+            <activity>
+               <title>A POS Breach</title>
+               <content>Kevin Strickland</content>
+            </activity>
+            <activity>
+               <title>Google Dorking</title>
+               <content>Dave Comstock</content>
+            </activity>
+         </Activities>
+         <Activities start="10:30 AM" end="11:00 AM" fa="check">
+            <activity>
+               <title>A POS Breach</title>
+               <content>Kevin Strickland</content>
+            </activity>
+            <activity>
+               <title>APT</title>
+               <content>Bill Barnes</content>
+            </activity>
+         </Activities>
+         <Activities start="11:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Costly Mistake</title>
+               <content>Garret Kroboth</content>
+            </activity>
+            <activity>
+               <title>Tech Changes</title>
+               <content>Diane Barrett</content>
+            </activity>
+         </Activities>
+         <Activities start="12:00 PM" end="1:00 PM" fa="cutlery">
+            <activity>
+               <title>LUNCH</title>
+               <content></content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Deceptive Defense</title>
+               <content>Michael Collins</content>
+            </activity>
+            <activity>
+               <title>Crypto - 0 to 128 in 4s</title>
+               <content>Ben Tice</content>
+            </activity>
+         </Activities>
+         <Activities start="2:00 PM" end="3:00 PM" fa="check">
+            <activity>
+               <title>Sometimes They're Innocent</title>
+               <content>Scott Inch</content>
+            </activity>
+            <activity>
+               <title>Secure Delete SSD</title>
+               <content>Stephen Larson</content>
             </activity>
          </Activities>
       </day>
@@ -134,6 +284,11 @@
                <front width="94" margin="6">OReilly.png</front>
                <back width="65" margin="11">OReilly2.jpg</back>
                <link>OReilly.com</link>
+            </company>
+            <company color="3b5dbf">
+               <front width="95" margin="43">Restorethe4th.png</front>
+               <back width="70" margin="11">Restorethe4th2.png</back>
+               <link>Restorethe4th.com</link>
             </company>
          </level>
       </levels>

@@ -245,7 +245,7 @@
                   <article>
                      <div class="announcement col-xs-12">
                         <div class="col-xs-12">
-                           <h3>Closing Ceremony - 5:30 PM</h3>
+                           <h3>Closing Ceremony - 3:00 PM</h3>
                            <p>Stay for competition prizes and giveaways!</p>
                         </div>
                      </div>
