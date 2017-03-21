@@ -193,6 +193,21 @@
          <content>Social engineering is the art of manipulating people so they give up confidential information. The types of information these criminals are seeking can vary, but when individuals are targeted the criminals are usually trying to trick you into
             giving them your passwords.</content>
       </third>
+      <event>
+         <title>DFIR</title>
+         <content></content>
+         <link>dfir</link>
+      </event>
+      <event>
+         <title>Wireless</title>
+         <content></content>
+         <link>wireless</link>
+      </event>
+      <event>
+         <title>OSINT</title>
+         <content></content>
+         <link>osint</link>
+      </event>
    </events>
    
    <sponsors>

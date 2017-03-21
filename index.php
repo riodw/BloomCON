@@ -127,7 +127,7 @@
                <i>noun<br>plural noun: <strong>hackers</strong></i>
             </p>
             <p style="padding-left:20px;">
-               <strong>1.</strong> &nbsp;&nbsp;A malicious meddler who tries to discover sensitive information by poking around. Hence password hacker, network hacker.
+               <strong>1.</strong> &nbsp;&nbsp;A malicious meddler who tries to discover sensitive information by poking around.
             </p>
          </div>
       </div>
@@ -170,7 +170,7 @@
          </div>
          <div class="container">
             <h3>The second BloomCON Forensics and Security conference!<br>Will be held March 24-25, 2017<br>At Bloomsburg University in Kehr Union, PA (USA).<br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber security.<br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity challenges for prizes.</h3>
-            <h2 style="text-decoration:underline;"><a href="images/BloomCON-Parking.png">Parking</a></h2>
+            <!--<h2 style="text-decoration:underline;"><a href="images/BloomCON-Parking.png">Parking</a></h2>-->
          </div>
       </div>
       
@@ -668,11 +668,11 @@
       
       <div id="matrixHolder" class="matrix-container">
          <div id="matrix">
-            <div class="t1" style="left:0px;">Rio Weber is SO COOL!</div>
-            <div class="t5" style="left:10px;">TestTestTestTest Test Test Test</div>
-            <div class="t1" style="left:20px;">Rio Weber is SO COOL!</div>
-            <div class="t2" style="left:5px;">TestTestTestTest Test Test Test</div>
-            <div class="t1" style="left:2px;">Rio Weber is SO COOL!</div>
+            <div class="t1" style="left:0px;">Rio Weber made this.</div>
+            <div class="t5" style="left:10px;">I Put on My Robe and Wizard Hat.</div>
+            <div class="t1" style="left:20px;">var i = 'COOL!'</div>
+            <div class="t2" style="left:5px;">2,147,483,647 Integer.MAX_VALUE</div>
+            <div class="t1" style="left:2px;">Who Here Loves Minions? Seriously.</div>
             <div class="t5" style="left:25px;">Rio Weber is SO COOL!</div>
             <div class="t1" style="left:60px;">TestTestTestTest Test Test Test</div>
             <div class="t2" style="left:80px;">Who Here Loves Minions? Seriously.</div>
@@ -686,7 +686,7 @@
             <div class="t3" style="left:310px;">Supper SEXY!</div>
             <div class="t5" style="left:350px;">I'm Like so totaly awesome! ya man</div>
             <div class="t4" style="left:390px;">Rio Weber is SO COOL!</div>
-            <div class="t2" style="left:430px;">Create Amazing Mac Dock Using CSS3</div>
+            <div class="t2" style="left:430px;">I have your IP Address</div>
             <div class="t1" style="left:470px;">Rio Weber is SO COOL!</div>
             <div class="t3" style="left:490px;">it's a me a mario</div>
             <div class="t5" style="left:520px;">Come On Down to Bloom Town!</div>
@@ -711,18 +711,18 @@
             <div class="t6" style="left:550px;">Live Image Resize Script With PHP</div>
             <div class="t1" style="left:0px;">Rio Weber is SO COOL!</div>
             <div class="t6" style="left:500px;">nice shadow effect</div>
-            <div class="t5" style="left:510px;">amazing windows7 menu with css3</div>
+            <div class="t5" style="left:510px;">I Put on My Robe and Wizard Hat.</div>
             <div class="t6" style="left:520px;">Live Image Resize Script With PHP</div>
             <div class="t1" style="left:2px;">TestTestTestTest Test Test Test</div>
             <div class="t5" style="left:25px;">TestTestTestTest Test Test Test</div>
             <div class="t1" style="left:60px;">TestTestTestTest Test Test Test</div>
             <div class="t2" style="left:80px;">3.1415926535897932384626433832795028841971693993751058</div>
-            <div class="t0" style="left:185px;">Everyone Vote for... Donald Pump, lets make America BIG again!</div>
+            <div class="t0" style="left:185px;">Everyone Vote for... Donald Pump, Make America BIG again!</div>
             <div class="t0" style="left:200px;">My Favorite Actor is Nick Cage</div>
             <div class="t0" style="left:390px;">O'Captain my Captain!</div>
             <div class="t0" style="left:350px;">I WOKE UP IN A NEW BUGATTI</div>
             <div class="t0" style="left:520px;">We should all take this event very seriousaly!</div>
-            <div class="t0" style="left:550px;">you have no idea, how amazing I truly am..</div>
+            <div class="t0" style="left:550px;">you have no idea, how amazing I truly am.</div>
             <div class="t0" style="left:690px;">Nicolas Cage Nicolas Cage Nicolas Cage Nicolas Cage</div>
             <div class="t0" style="left:750px;">Yall should buy me some Bit Coin!</div>
             <div class="t0" style="left:890px;">Yall should buy me some Bit Coin!</div>
@@ -871,7 +871,7 @@
          </div>
       </div>
       
-      
+      <!-- AFTER PARTY CSS -->
       <link href="css/AfterParty.css" rel="stylesheet" type="text/css">
 
       <div id="After_P_card" class="modal fade" role="dialog">
@@ -932,7 +932,7 @@
                      </div>
                      <!-- end card-container -->
                   </div>
-
+                  
                   <div class="col-md-6 col-sm-6">
                      <div class="card-container">
                         <div class="card">
@@ -983,8 +983,7 @@
          </div>
       </div>
       <!--./ MODALS -->
-      <!--./ MODALS -->
-
+      
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <!-- Bootstrap Core JavaScript -->
@@ -993,7 +992,7 @@
       <script>
          function showHack() {
             if($("#hacker").height() == 0) {
-               $("#hacker").css("height", "250px");
+               $("#hacker").css("height", "145px");
                $("#matrixHolder").css("height", "790px");
             } else {
                $("#hacker").css("height", "0");
