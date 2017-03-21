@@ -7,7 +7,7 @@
       <year>2017</year>
    </date>
 
-   <schedule name="SCHEDULE">
+   <schedule title="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
          <Activities start="7:30 AM" end="8:00 AM" fa="arrow-up">
@@ -178,40 +178,37 @@
       </day>
    </schedule>
    
-   <events>
-      <title>EVENTS</title>
-      <first>
-         <title>Wireless Hacking Challenge</title>
-         <content>If endurance, skill, and strategy were the only classifications required for an activity to be considered sport, competitive hacking could be the newest "sport" gaining popularity.</content>
-      </first>
-      <second>
-         <title>Digital Forensics/Incident Response Competition</title>
-         <content>You do stuff, like hacking.</content>
-      </second>
-      <third>
-         <title>Lockpick Village</title>
-         <content>Social engineering is the art of manipulating people so they give up confidential information. The types of information these criminals are seeking can vary, but when individuals are targeted the criminals are usually trying to trick you into
-            giving them your passwords.</content>
-      </third>
+   <events title="EVENTS">
       <event>
-         <title>DFIR</title>
-         <content></content>
-         <link>dfir</link>
-      </event>
-      <event>
+         <fa>wifi</fa>
          <title>Wireless</title>
-         <content></content>
+         <content>If endurance, skill, and strategy were the only classifications required for an activity to be considered sport, competitive hacking could be the newest "sport" gaining popularity.</content>
+         <image>pic01.jpg</image>
          <link>wireless</link>
       </event>
       <event>
+         <fa>eye</fa>
+         <title>Digital Forensics / Incident Response Competition</title>
+         <image>pic03.jpg</image>
+         <content>You do stuff, like hacking.</content>
+         <link>dfir</link>
+      </event>
+      <event>
          <title>OSINT</title>
-         <content></content>
+         <fa>search</fa>
+         <content>Social engineering is the art of manipulating people so they give up confidential information. The types of information these criminals are seeking can vary, but when individuals are targeted the criminals are usually trying to trick you intogiving them your passwords.</content>
+         <image>pic02.jpg</image>
          <link>osint</link>
+      </event>
+      <event>
+         <title>Lockpick Village</title>
+         <fa>unlock</fa>
+         <content>The Lockpick Village is a physical security demonstration and participation area. Visitors can learn about the vulnerabilities of various locking devices, techniques used to exploit these vulnerabilities, and practice on locks of various levels of difficultly to try it themselves.</content>
+         <image>pic01.jpg</image>
       </event>
    </events>
    
-   <sponsors>
-      <title>SPONSORS</title>
+   <sponsors title="SPONSORS">
       <email>drphil@bloomcon.com</email>
       <levels>
          <level name="Black Diamond" color="000">

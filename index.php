@@ -186,7 +186,7 @@
                <p style="font-size:5em"><i class="fa fa-clock-o"></i></p>
             </div>
             <h1>
-               <?php echo $BCxml->schedule['name']; ?>
+               <?php echo $BCxml->schedule['title']; ?>
             </h1>
          </div>
          <section class="days container">
@@ -274,39 +274,25 @@
             <div class="container" id="u7564-4">
                <p style="font-size:5em"><i class="fa fa-bolt"></i></p>
             </div>
-            <h1 id="Events_Title"><?php echo $BCxml->events->title; ?></h1>
+            <h1 id="Events_Title"><?php echo $BCxml->events['title']; ?></h1>
             <hr style="width:60%;">
          </div>
          <div class="container">
-            <section class="event">
-               <a class="image icon fa-wifi col-xs-12 col-sm-6">
-                  <img src="images/pic01.jpg" alt=""/>
-               </a>
-               <div class="content col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->first->title; ?></h3>
-                  <p><?php echo $BCxml->events->first->content; ?></p>
-               </div>
-            </section>
-            <section class="event">
-               <div class="content hideWhenSmall col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->second->title; ?></h3>
-                  <p><?php echo $BCxml->events->second->content; ?></p>
-               </div>
-               <a class="image icon fa-search col-xs-12 col-sm-6">
-                  <img src="images/pic02.jpg" alt="" /></a>
-               <div class="content hideWhenBig col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->second->title; ?></h3>
-                  <p><?php echo $BCxml->events->second->content; ?></p>
-               </div>
-            </section>
-            <section class="event">
-               <a class="image icon fa-unlock col-xs-12 col-sm-6">
-                  <img src="images/pic03.jpg" alt="" /></a>
-               <div class="content col-xs-12 col-sm-6">
-                  <h3 style="color:#428bca;"><?php echo $BCxml->events->third->title; ?></h3>
-                  <p><?php echo $BCxml->events->third->content; ?></p>
-               </div>
-            </section>
+            <?php
+               foreach ($BCxml->events->children() as $event) {
+                  echo '
+                        <section class="event">
+                           <a class="image icon fa-'. $event->fa .' col-xs-12 col-sm-6">
+                              <img src="images/'. $event->image .'" alt=""/>
+                           </a>
+                           <div class="content col-xs-12 col-sm-6">
+                              <h3 style="color:#428bca;">'. $event->title .'</h3>
+                              <p>'. $event->content .'</p>
+                           </div>
+                        </section>';
+                           
+               }
+            ?>
          </div>
       </div>
       <br>
@@ -354,7 +340,7 @@
       <!-- Sponsors - SPONSORS -Sponsors - SPONSORS - Sponsors - SPONSORS - Sponsors - SPONSORS-->
       <section id="sponsors" style="position:relative;">
          <div class="content-center" style="padding-top:25px;">
-            <h1><?php echo $BCxml->sponsors->title; ?></h1>
+            <h1><?php echo $BCxml->sponsors['title']; ?></h1>
             <hr style="width:60%; border-color:black;">
          </div>
          
