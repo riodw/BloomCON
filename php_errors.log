@@ -1,0 +1,8 @@
+[23-Mar-2017 19:05:21 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "bloomcon.xml" in /home/ubuntu/workspace/archive/index.php on line 5
+[23-Mar-2017 19:05:21 UTC] PHP Stack trace:
+[23-Mar-2017 19:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/archive/index.php:0
+[23-Mar-2017 19:05:21 UTC] PHP   2. simplexml_load_file() /home/ubuntu/workspace/archive/index.php:5
+[23-Mar-2017 19:05:42 UTC] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity "bloomcon.xml" in /home/ubuntu/workspace/archive/index.php on line 5
+[23-Mar-2017 19:05:42 UTC] PHP Stack trace:
+[23-Mar-2017 19:05:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/archive/index.php:0
+[23-Mar-2017 19:05:42 UTC] PHP   2. simplexml_load_file() /home/ubuntu/workspace/archive/index.php:5

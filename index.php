@@ -29,24 +29,24 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
    
    <!-- MY CUSTOM CSS-->
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <link href="/css/styles.css" rel="stylesheet" type="text/css">
    <!--Navbar-->
-   <link href="css/nav.css" rel="stylesheet" type="text/css">
+   <link href="/css/nav.css" rel="stylesheet" type="text/css">
    <!--About-->
-   <link href="css/about.css" rel="stylesheet" type="text/css">
+   <link href="/css/about.css" rel="stylesheet" type="text/css">
    <!--Schedule-->
-   <link href="css/Schedule.css" rel="stylesheet" type="text/css">
+   <link href="/css/Schedule.css" rel="stylesheet" type="text/css">
    <!--Events-->
-   <link href="css/Event-Squares.css" rel="stylesheet" type="text/css">
+   <link href="/css/Event-Squares.css" rel="stylesheet" type="text/css">
    <!--Sponsors-->
-   <link href="css/flip.css" rel="stylesheet" type="text/css">
+   <link href="/css/flip.css" rel="stylesheet" type="text/css">
    <!--Contact-->
-   <link href="css/contact.css" rel="stylesheet" type="text/css">
+   <link href="/css/contact.css" rel="stylesheet" type="text/css">
    <!--Footer-->
-   <link href="css/FooterLinks.css" rel="stylesheet" type="text/css">
+   <link href="/css/FooterLinks.css" rel="stylesheet" type="text/css">
    
    <!-- Matrix: Scrolling text -->
-   <link href="css/Matrix.css" rel="stylesheet" type="text/css">
+   <link href="/css/Matrix.css" rel="stylesheet" type="text/css">
 
    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -624,7 +624,7 @@
                var infowindow = new google.maps.InfoWindow({
                   content: contentString
                });
-               var image = 'marker.png';
+               var image = '/marker.png';
                var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
@@ -1036,15 +1036,15 @@
          });
       </script>
 
-      <script src="js/jqBootstrapValidation.js"></script>
-      <script src="js/contact_me.js"></script>
-      <script src="js/freelancer.js"></script>
+      <script src="/js/jqBootstrapValidation.js"></script>
+      <script src="/js/contact_me.js"></script>
+      <script src="/js/freelancer.js"></script>
 
       <!-- FROM GrayScale -->
       <!-- Plugin JavaScript -->
-      <script src="js/jquery.easing.min.js"></script>
+      <script src="/js/jquery.easing.min.js"></script>
       <!-- Custom Theme JavaScript -->
-      <script src="js/grayscale.js"></script>
+      <script src="/js/grayscale.js"></script>
       
       <script>
          (function(i, s, o, g, r, a, m) {
