@@ -170,7 +170,7 @@
          </div>
          <div class="container">
             <h3>The second BloomCON Forensics and Security conference!<br>Will be held March 24-25, 2017<br>At Bloomsburg University in Kehr Union, PA (USA).<br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber security.<br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity challenges for prizes.</h3>
-            <!--<h2 style="text-decoration:underline;"><a href="images/BloomCON-Parking.png">Parking</a></h2>-->
+            <h2 style="text-decoration:underline;"><a data-toggle="modal" data-target="#parking" href="#">Parking</a></h2>
          </div>
       </div>
       
@@ -188,6 +188,12 @@
             <h1>
                <?php echo $BCxml->schedule['title']; ?>
             </h1>
+            <div class="text-center">
+               <h4>Full Schedule:</h4>
+               <h2>
+                  <a href="images/Friday.png" style="text-decoration:underline;">Friday</a>&nbsp;&nbsp;&nbsp;<a href="images/Saturday.png" style="text-decoration:underline;">Saturday</a>
+               </h2>
+            </div>
          </div>
          <section class="days container">
             <article class="col-xs-12">
@@ -256,12 +262,6 @@
                $num_days++;
             }
             ?>
-         <div class="text-center">
-            <h4>Full Schedule:</h4>
-            <h2>
-               <a href="images/Friday.png" style="text-decoration:underline;">Friday</a>&nbsp;&nbsp;&nbsp;<a href="images/Saturday.png" style="text-decoration:underline;">Saturday</a>
-            </h2>
-         </div>
          <hr style="width:60%;">
       </div>
       
@@ -722,6 +722,8 @@
       
       <!-- MODALS -->
       <!-- MODALS -->
+      
+      <!-- Call for Papers -->
       <div id="cfp" class="modal fade" role="dialog">
          <div class="col-xs-11 col-sm-8" style="margin: auto;float:none;">
             <div class="modal-content">
@@ -789,8 +791,39 @@
             </div>
          </div>
       </div>
-	  
-	  <div id="sponsor" class="modal fade" role="dialog">
+      
+      <!-- Parking -->
+      <div id="parking" class="modal fade" role="dialog">
+         <div class="col-xs-11 col-sm-7" style="margin: auto;float:none;">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Parking</h4>
+               </div>
+               <div class="modal-body col-xs-12" style="text-align:center;">
+                  <div class="content-center" style="text-align:center;">
+                     <h2>BLOOMCON <i class="fa fa-car"></i> PARKING</h2>
+                     <hr style="width:55%;">
+                  </div>
+                  <div style="max-width:600px; margin:0 auto; clear:both;">
+                     <h4>Parking on Friday:</h4>
+                     <p>We have reserved the top and bottom levels of the tri-level parking deck for Friday. This will open at 8am. Please be aware that past 9am we will not have attendents in the parking deck (they want to come to BloomCON too!). As a result, the deck may become full. Should the deck become full you can either park on the upper campus in the Orange lot and take a campus shuttle down or stop by Buckingham Maintenance Center (right off Lightstreet road) and ask for a visitor parking permit.</p>
+                     <br>
+                     <h4>Parking on Saturday:</h4>
+                     <p>You can park in the tri-level deck on Saturday.  If this becomes full you can park anywhere on campus without fear of getting a ticket.</p>
+                  </div>
+				  <br>
+				  <a href="http://www.bloomu.edu/parking" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">More information on parking can be found at www.bloomu.edu/parking</a>
+               </div>
+               <div class="modal-footer" style="clear: both;">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- How to sponsor -->
+      <div id="sponsor" class="modal fade" role="dialog">
          <div class="col-xs-11 col-sm-7" style="margin: auto;float:none;">
             <div class="modal-content">
                <div class="modal-header">
@@ -859,7 +892,7 @@
       
       <!-- AFTER PARTY CSS -->
       <link href="css/AfterParty.css" rel="stylesheet" type="text/css">
-
+      <!-- After Party -->
       <div id="After_P_card" class="modal fade" role="dialog">
          <div class="col-xs-11 col-sm-10" style="margin: auto;float:none;">
             <div class="modal-content">
