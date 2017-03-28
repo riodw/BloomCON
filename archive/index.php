@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML>j
 <html>
+
 <head>
    <meta charset="utf-8">
    <title>BLOOMCON | Archive</title>
@@ -23,7 +24,7 @@
    <!-- CSS ==========-->
    <!-- BOOTSTRAP -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-   
+
    <!-- MY CUSTOM CSS-->
    <link href="/css/styles.css" rel="stylesheet" type="text/css">
    <!--Navbar-->
@@ -40,20 +41,38 @@
    <link href="/css/contact.css" rel="stylesheet" type="text/css">
    <!--Footer-->
    <link href="/css/FooterLinks.css" rel="stylesheet" type="text/css">
-   
+
    <!-- Matrix: Scrolling text -->
    <link href="/css/Matrix.css" rel="stylesheet" type="text/css">
 
    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+   <script>
+      (function(i, s, o, g, r, a, m) {
+         i['GoogleAnalyticsObject'] = r;
+         i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+         }, i[r].l = 1 * new Date();
+         a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+         a.async = 1;
+         a.src = g;
+         m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-61756765-2', 'auto');
+      ga('send', 'pageview');
+   </script>
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
    <style>
       /* Color of links (ie. Get Directions) */
+      
       .btn-outline:hover,
       .btn-outline:focus,
       .btn-outline:active,
@@ -63,46 +82,46 @@
          background: #fff;
       }
    </style>
-      <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
-      <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
-      <!--css/nav.css-->
-      <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
-      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+   <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
+   <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
+   <!--css/nav.css-->
+   <!-- Navigation - NAV - Navigation - NAV - Navigation - NAV - -->
+   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-               <a class="navbar-brand page-scroll" href="/">
-                  <i class="fa fa-expeditedssl"></i> <span class="light">Bloom</span>CON
-               </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-               <ul class="nav navbar-nav">
-                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                  <li class="hidden">
-                     <a href="#page-top"></a>
-                  </li>
-               </ul>
-            </div>
+            <a class="navbar-brand page-scroll" href="/">
+               <i class="fa fa-expeditedssl"></i> <span class="light">Bloom</span>CON
+            </a>
          </div>
-      </nav>
-      
-      <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
-      <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
-      <!-- css/about.css -->
-      <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
-      <div id="about" class="container">
-         <div class="content-center" style="text-align:center">
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+               <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+               <li class="hidden">
+                  <a href="#page-top"></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
+   <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
+   <!-- css/about.css -->
+   <!-- ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about - ABOUT - about -->
+   <div id="about" class="container">
+      <div class="content-center" style="text-align:center">
+         <!-- content -->
+         <div class="clearfix colelem" id="u7564-4">
             <!-- content -->
-            <div class="clearfix colelem" id="u7564-4">
-               <!-- content -->
-               <p style="font-size:5em"><i class="fa fa-expeditedssl"></i></p>
-            </div>
-            <h1>PREVIOUS CONS</h1>
+            <p style="font-size:5em"><i class="fa fa-expeditedssl"></i></p>
          </div>
-         <div class="container">
+         <h1>PREVIOUS CONS</h1>
+      </div>
+      <div class="container">
             <?php
                
             ?>
@@ -164,22 +183,6 @@
       <!--<script src="/js/jquery.easing.min.js"></script>-->
       <!-- Custom Theme JavaScript -->
       <!--<script src="/js/grayscale.js"></script>-->
-      
-      <script>
-         (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-               (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-               m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-         ga('create', 'UA-61756765-2', 'auto');
-         ga('send', 'pageview');
-      </script>
 
 </body>
 </html>
