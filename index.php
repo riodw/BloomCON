@@ -126,7 +126,7 @@
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <div id="logo" class="container" style="z-index:200;">
-         <img class="center-block" src="images/huskblue.png" alt="logo">
+         <img class="center-block" src="/images/huskblue.png" alt="logo">
          <h1>BloomCON</h1>
          <p><?php echo $BCxml->date->month.' '.$BCxml->date->days_start.'-'.$BCxml->date->days_end; ?> @ Bloomsburg University </p>
 
@@ -298,7 +298,7 @@
                   echo '
                         <section class="event">
                            <a class="image icon fa-'. $event->fa .' col-xs-12 col-sm-6">
-                              <img src="images/'. $event->image .'" alt=""/>
+                              <img src="/images/'. $event->image .'" alt=""/>
                            </a>
                            <div class="content col-xs-12 col-sm-6">
                               <h3 style="color:#428bca;">'. $event->title .'</h3>
@@ -341,7 +341,7 @@
                <h2 id="Date_Year" style="color:#ECECEC;"><?php echo $BCxml->date->year; ?></h2>
             </div>
             <div id="videoContainer">
-               <video autoplay id="aboutImage" poster="images/Matrix.jpg" loop>
+               <video autoplay id="aboutImage" poster="/images/Matrix.jpg" loop>
                   <source src="Matrix.mp4" type="video/mp4">
               </video>
             </div>
@@ -383,7 +383,7 @@
                         <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                            <div class="flipper">
                               <div class="front">
-                                 <img src="images/sponsors/'. $BCxml->date->year .'/'. $company->front .'" style="';
+                                 <img src="/images/sponsors/'. $BCxml->date->year .'/'. $company->front .'" style="';
                                  if($company->front['width'] != '')
                                     echo 'width:'. $company->front['width'] .'%;';
                                  if($company->front['margin'] != '')
@@ -391,7 +391,7 @@
                                  echo '">
                               </div>
                               <div class="back">
-                                 <img src="images/sponsors/'. $BCxml->date->year .'/'. $company->back .'" style="';
+                                 <img src="/images/sponsors/'. $BCxml->date->year .'/'. $company->back .'" style="';
                                  if($company->back['width'] != '')
                                     echo 'width:'. $company->back['width'] .'%;';
                                  if($company->back['margin'] != '')
@@ -432,7 +432,7 @@
                         <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                            <div class="flipper">
                               <div class="front">
-                                 <img src="images/sponsors/'. $company->front .'" style="';
+                                 <img src="/images/sponsors/'. $company->front .'" style="';
                                  if($company->front['width'] != '')
                                     echo 'width:'. $company->front['width'] .'%;';
                                  if($company->front['margin'] != '')
@@ -440,7 +440,7 @@
                                  echo '">
                               </div>
                               <div class="back">
-                                 <img src="images/sponsors/'. $company->back .'" style="';
+                                 <img src="/images/sponsors/'. $company->back .'" style="';
                                  if($company->back['width'] != '')
                                     echo 'width:'. $company->back['width'] .'%;';
                                  if($company->back['margin'] != '')
@@ -475,7 +475,7 @@
                            <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                               <div class="flipper">
                                  <div class="front">
-                                    <img src="images/sponsors/'. $company->front .'" style="';
+                                    <img src="/images/sponsors/'. $company->front .'" style="';
                                     if($company->front['width'] != '')
                                        echo 'width:'. $company->front['width'] .'%;';
                                     if($company->front['margin'] != '')
@@ -483,7 +483,7 @@
                                     echo '">
                                  </div>
                                  <div class="back">
-                                    <img src="images/sponsors/'. $company->back .'" style="';
+                                    <img src="/images/sponsors/'. $company->back .'" style="';
                                     if($company->back['width'] != '')
                                        echo 'width:'. $company->back['width'] .'%;';
                                     if($company->back['margin'] != '')
@@ -928,10 +928,10 @@
                         <div class="card">
                            <div class="front">
                               <div class="cover" style="max-height:184px;overflow:hidden;">
-                                 <img src="images/bar.jpg">
+                                 <img src="/images/bar.jpg">
                               </div>
                               <div class="user">
-                                 <img class="img-circle" src="images/bar_logo.png">
+                                 <img class="img-circle" src="/images/bar_logo.png">
                               </div>
                               <div class="content">
                                  <div class="main">
@@ -972,10 +972,10 @@
                         <div class="card">
                            <div class="front">
                               <div class="cover" style="max-height:184px;overflow:hidden;">
-                                 <img src="images/dualcore_back.jpg">
+                                 <img src="/images/dualcore_back.jpg">
                               </div>
                               <div class="user">
-                                 <img class="img-circle" src="images/dualcore.jpg">
+                                 <img class="img-circle" src="/images/dualcore.jpg">
                               </div>
                               <div class="content">
                                  <div class="main">
