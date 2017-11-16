@@ -383,7 +383,7 @@
                         <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                            <div class="flipper">
                               <div class="front">
-                                 <img src="images/sponsors/'. $company->front .'" style="';
+                                 <img src="images/sponsors/'. $BCxml->date->year .'/'. $company->front .'" style="';
                                  if($company->front['width'] != '')
                                     echo 'width:'. $company->front['width'] .'%;';
                                  if($company->front['margin'] != '')
@@ -391,7 +391,7 @@
                                  echo '">
                               </div>
                               <div class="back">
-                                 <img src="images/sponsors/'. $company->back .'" style="';
+                                 <img src="images/sponsors/'. $BCxml->date->year .'/'. $company->back .'" style="';
                                  if($company->back['width'] != '')
                                     echo 'width:'. $company->back['width'] .'%;';
                                  if($company->back['margin'] != '')
