@@ -329,7 +329,7 @@
       <br>
 
       <!-- VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO  -->
-      <link href="css/video.css" rel="stylesheet" type="text/css">
+      <link href="/css/video.css" rel="stylesheet" type="text/css">
       <!-- VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO  -->
 
       <!-- DATE - date - DATE - date - DATE - date - DATE - date - DATE - date - DATE - date - DATE - date DATE - date -->
@@ -906,7 +906,7 @@
       </div>
       
       <!-- AFTER PARTY CSS -->
-      <link href="css/AfterParty.css" rel="stylesheet" type="text/css">
+      <link href="/css/AfterParty.css" rel="stylesheet" type="text/css">
       <!-- After Party -->
       <div id="After_P_card" class="modal fade" role="dialog">
          <div class="col-xs-11 col-sm-10" style="margin: auto;float:none;">
