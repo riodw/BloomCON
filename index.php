@@ -184,7 +184,7 @@
             <h1>ABOUT BLOOMCON</h1>
          </div>
          <div class="container">
-            <h3>The second BloomCON Forensics and Security conference!<br>Will be held March 24-25, 2017<br>At Bloomsburg University in Kehr Union, PA (USA).<br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber security.<br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity challenges for prizes.</h3>
+            <h3>The second BloomCON Forensics and Security conference!<br>Will be held March 23-25, 2018<br>At Bloomsburg University in Kehr Union, PA (USA).<br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber security.<br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity challenges for prizes.</h3>
             <h2 style="text-decoration:underline;"><a data-toggle="modal" data-target="#parking" href="#">Parking</a></h2>
          </div>
       </div>
@@ -204,10 +204,10 @@
                <?php echo $BCxml->schedule['title']; ?>
             </h1>
             <div class="text-center">
-               <h4>Full Schedule:</h4>
-               <h2>
-                  <a href="images/Friday.png" style="text-decoration:underline;">Friday</a>&nbsp;&nbsp;&nbsp;<a href="images/Saturday.png" style="text-decoration:underline;">Saturday</a>
-               </h2>
+               <!--<h4>Full Schedule:</h4>-->
+               <!--<h2>-->
+               <!--   <a href="images/Friday.png" style="text-decoration:underline;">Friday</a>&nbsp;&nbsp;&nbsp;<a href="images/Saturday.png" style="text-decoration:underline;">Saturday</a>-->
+               <!--</h2>-->
             </div>
          </div>
          <section class="days container">
@@ -896,7 +896,7 @@
                      </ul>
                   </div>
 				  <br>
-				  <a href="./bloomcon0x02-sponsor.docx" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">Download File to see all details</a>
+				  <a href="./bloomcon0x03-sponsor.docx" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">Download File to see all details</a>
                </div>
                <div class="modal-footer" style="clear: both;">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

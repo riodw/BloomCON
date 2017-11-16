@@ -10,169 +10,19 @@
    <schedule title="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
-         <Activities start="7:30 AM" end="8:00 AM" fa="arrow-up">
+         <Activities start="TBA" end="8:30 AM" fa="check">
             <activity>
-               <title>Setup</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="8:00 AM" end="9:00 AM" fa="sign-in">
-            <activity>
-               <title>Registration</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="9:00 AM" end="10:00 AM" fa="user">
-            <activity>
-               <title>KEYNOTE: Senior Security Advisor</title>
-               <content>Alexander Muentz</content>
-            </activity>
-         </Activities>
-         <Activities start="10:00 AM" end="11:00 AM" fa="check">
-            <activity>
-               <title>Advanced Forensics</title>
-               <content>Brian Coleman</content>
-            </activity>
-            <activity>
-               <title>TBA</title>
-               <content>Fred Reck</content>
-            </activity>
-         </Activities>
-         <Activities start="11:00 AM" end="12:00 PM" fa="check">
-            <activity>
-               <title>The first 48: All your data</title>
-               <content>Chad Gough</content>
-            </activity>
-            <activity>
-               <title>Deleted Evidence</title>
-               <content>Dave Pany</content>
-            </activity>
-         </Activities>
-         <Activities start="12:00 PM" fa="cutlery">
-            <activity>
-               <title>LUNCH</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
-            <activity>
-               <title>Cox vs. BMG</title>
-               <content>Alex Urbelis</content>
-            </activity>
-            <activity>
-               <title>NTFS Sparse Files</title>
-               <content>John Riley</content>
-            </activity>
-         </Activities>
-         <Activities start="2:00 PM" end="3:00 PM" fa="check">
-            <activity>
-               <title>TBA</title>
-               <content>Billy Ebersole</content>
-            </activity>
-            <activity>
-               <title>Domain Pop Data for FREE</title>
-               <content>Erica MacieJewski</content>
-            </activity>
-         </Activities>
-         <Activities start="3:00 PM" end="4:00 PM" fa="check">
-            <activity>
-               <title>Inspect Your Shorts</title>
-               <content>Anthony Spina</content>
-            </activity>
-            <activity>
-               <title>TBA</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="4:00 PM" end="5:00 PM" fa="check">
-            <activity>
-               <title>Scalable Vuln Mgmt</title>
-               <content>Katie Perry</content>
-            </activity>
-            <activity>
-               <title>Password Hash Reversal</title>
-               <content>Mark Sanders</content>
+               <title>To Be Announced</title>
+               <content>Check back later for the full listing!</content>
             </activity>
          </Activities>
       </day>
       <!-- DAY 2 -->
       <day name="Day 2">
-         <Activities start="7:30 AM" end="8:00 AM" fa="arrow-up">
+         <Activities start="TBA" end="8:30 AM" fa="wheelchair">
             <activity>
-               <title>Setup</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="8:00 AM" end="9:00 AM" fa="sign-in">
-            <activity>
-               <title>Registration</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="9:00 AM" end="10:00 AM" fa="check">
-            <activity>
-               <title>Windows Events Logs</title>
-               <content>Nage Guagenti</content>
-            </activity>
-            <activity>
-               <title>What can my logs tell me?</title>
-               <content>Art Petrochenko</content>
-            </activity>
-         </Activities>
-         <Activities start="10:00 AM" end="10:30 AM" fa="check">
-            <activity>
-               <title>A POS Breach</title>
-               <content>Kevin Strickland</content>
-            </activity>
-            <activity>
-               <title>Google Dorking</title>
-               <content>Dave Comstock</content>
-            </activity>
-         </Activities>
-         <Activities start="10:30 AM" end="11:00 AM" fa="check">
-            <activity>
-               <title>A POS Breach</title>
-               <content>Kevin Strickland</content>
-            </activity>
-            <activity>
-               <title>APT</title>
-               <content>Bill Barnes</content>
-            </activity>
-         </Activities>
-         <Activities start="11:00 AM" end="12:00 PM" fa="check">
-            <activity>
-               <title>Costly Mistake</title>
-               <content>Garret Kroboth</content>
-            </activity>
-            <activity>
-               <title>Tech Changes</title>
-               <content>Diane Barrett</content>
-            </activity>
-         </Activities>
-         <Activities start="12:00 PM" end="1:00 PM" fa="cutlery">
-            <activity>
-               <title>LUNCH</title>
-               <content></content>
-            </activity>
-         </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
-            <activity>
-               <title>Deceptive Defense</title>
-               <content>Michael Collins</content>
-            </activity>
-            <activity>
-               <title>Crypto - 0 to 128 in 4s</title>
-               <content>Ben Tice</content>
-            </activity>
-         </Activities>
-         <Activities start="2:00 PM" end="3:00 PM" fa="check">
-            <activity>
-               <title>Sometimes They're Innocent</title>
-               <content>Scott Inch</content>
-            </activity>
-            <activity>
-               <title>Secure Delete SSD</title>
-               <content>Stephen Larson</content>
+               <title>I said, TO BE ANNOUNCED!</title>
+               <content>Did you really think there would be something different here?</content>
             </activity>
          </Activities>
       </day>
@@ -215,93 +65,18 @@
          </level>
          
          <level name="Platinum" color="C0C0C0">
-            <company color="539138">
-               <front width="85" margin="6">Mepush.png</front>
-               <back width="94" margin="50">MepushLogo.png</back>
-               <link>MePush.com</link>
-            </company>
-            <company color="74202F">
-               <front width="" margin="">bu_logo.jpg</front>
-               <back width="45" margin="9">huskie.png</back>
-               <link>bloomu.edu</link>
-            </company>
-            <company color="036aad">
-               <front width="" margin="">4discovery.png</front>
-               <back width="95" margin="55">4discovery2.jpg</back>
-               <link>4Discovery.com</link>
-            </company>
          </level>
          
          <level name="Gold" color="EEC900">
-            <company color="008b7a">
-               <front width="93" margin="45">SelectMedical.png</front>
-               <back width="79" margin="38">SelectMedical2.png</back>
-               <link>SelectMedical.com</link>
-            </company>
-            <company color="ed1b2e">
-               <front width="93" margin="45">TM.png</front>
-               <back width="79" margin="38">TM.png</back>
-               <link>TMprotection.com</link>
-            </company>
          </level>
          
          <level name="Silver" color="C0C0C0">
-            <company color="2d3f96">
-               <front width="97" margin="65">AppalachiaTech.jpg</front>
-               <back width="" margin="35">AppalachiaTech2.jpg</back>
-               <link>AppalachiaTech.com</link>
-            </company>
-            <company color="0e763c">
-               <front width="" margin="10">TrustedSec.png</front>
-               <back width="91" margin="12">TrustedSec2.png</back>
-               <link>TrustedSec.com</link>
-            </company>
-            <company color="085c91">
-               <front width="" margin="">G3.png</front>
-               <back width="93" margin="">G3Tech.jpg</back>
-               <link>G3ti.net</link>
-            </company>
-            <company color="004a80">
-               <front width="97" margin="60">InnoTek.png</front>
-               <back width="" margin="40">InnoTek2.jpg</back>
-               <link>ConsultInnoTek.com</link>
-            </company>
          </level>
          
          <level name="Bronze" color="9C6963">
-            <company color="d32532">
-               <front width="95" margin="4">FireEye.jpg</front>
-               <back width="" margin="">FireEye2.png</back>
-               <link>FireEye.com</link>
-            </company>
-            <company color="fe000c">
-               <front width="" margin="53">Citrix2.gif</front>
-               <back width="" margin="39">Citrix.png</back>
-               <link>Citrix.com</link>
-            </company>
-            <company color="e32a21">
-               <front width="" margin="">ToyotaS.jpg</front>
-               <back width="" margin="">ToyotaScranton.jpg</back>
-               <link>ToyotaofScranton.com</link>
-            </company>
          </level>
          
          <level name="Copper" color="ca7741">
-            <company color="015f85">
-               <front width="89" margin="45">Cisco.png</front>
-               <back width="68" margin="15">Cisco2.png</back>
-               <link>Cisco.com</link>
-            </company>
-            <company color="b9002d">
-               <front width="94" margin="6">OReilly.png</front>
-               <back width="65" margin="11">OReilly2.jpg</back>
-               <link>OReilly.com</link>
-            </company>
-            <company color="3b5dbf">
-               <front width="95" margin="43">Restorethe4th.png</front>
-               <back width="70" margin="11">Restorethe4th2.png</back>
-               <link>Restorethe4th.com</link>
-            </company>
          </level>
       </levels>
    </sponsors>
