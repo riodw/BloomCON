@@ -104,7 +104,7 @@
                      <a href="#page-top"></a>
                   </li>
                   <li>
-                     <a class="page-scroll" href="https://www.eventbrite.com/e/bloomcon-0x02-forensics-and-security-conference-tickets-28842165694" type="button" class="btn btn-primary btn-lg">Tickets</a>
+                     <a class="page-scroll" href="<?php echo $BCxml->purchase ?>" type="button" class="btn btn-primary btn-lg">Tickets</a>
                   </li>
                   <li>
                      <a class="page-scroll" href="#about">About</a>
@@ -131,7 +131,7 @@
          <p><?php echo $BCxml->date->month.' '.$BCxml->date->days_start.'-'.$BCxml->date->days_end; ?> @ Bloomsburg University </p>
 
          <div style="float:none;text-align:center">
-            <a href="https://www.eventbrite.com/e/bloomcon-0x02-forensics-and-security-conference-tickets-28842165694" type="button" class="btn btn-primary btn-lg" style="background-color:rgba(200,200,200,.3);">Buy Tickets</a>
+            <a href="<?php echo $BCxml->purchase ?>" type="button" class="btn btn-primary btn-lg" style="background-color:rgba(200,200,200,.3);">Buy Tickets</a>
          </div>
          <hr style="width:40%;">
          <p>Brought to you by <a onclick="showHack()" style="cursor:pointer">hackers</a>.</p>
@@ -321,7 +321,7 @@
          <div class="container" style="float:none;text-align:center">
             <h1>Get Your Tickets</h1>
             <p>Only 500 tickets total<br>Powered by Eventbrite</p>
-            <a href="https://www.eventbrite.com/e/bloomcon-0x02-forensics-and-security-conference-tickets-28842165694" type="button" class="btn btn-primary btn-lg">Buy Tickets</a>
+            <a href="<?php echo $BCxml->purchase ?>" type="button" class="btn btn-primary btn-lg">Buy Tickets</a>
          </div>
          <hr style="width:60%;">
       </section>
