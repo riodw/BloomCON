@@ -1,7 +1,10 @@
 #DAY1 {display: block;
 }
 #DAY2 {
-   display: none;
+   display: block;
+}
+#DAY3 {
+   display: block;
 }
 #schedule {
    background-color: #BAE2F4;
