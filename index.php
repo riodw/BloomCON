@@ -244,16 +244,16 @@
             <section class="days container">
                 <article class="col-xs-12">
                     <?php
-                        $index = 0;
+                        $num_days = 1;
                         foreach ($BCxml->schedule->children() as $day) {
-                            if ($index == 0) {
-                                echo '<div class="active col-xs-4">';
+                            if ($num_days == 1) {
+                                echo '<div id="dayButton'.$num_days.'" class="active col-xs-4" onclick="clickDay(\''. $num_days .'\');">';
                             } else {
-                                echo '<div class="col-xs-4">';
+                                echo '<div id="dayButton'.$num_days.'" class="col-xs-4" onclick="clickDay(\''. $num_days .'\');">';
                             }
                             echo '<p>' . $day[0]['name'] . '</p>';
                             echo '</div>';
-                            $index++;
+                            $num_days++;
                         }
                     ?>
                 </article>
@@ -262,7 +262,7 @@
             <?php
             $num_days = 1;
             foreach ($BCxml->schedule->children() as $day) {
-               echo '<section id="DAY'.$num_days.'" class="container">';
+               echo '<section id="DAY'.$num_days.'" class="container day_schedule">';
                
                foreach ($day->children() as $Activities) {
                   $split = 1;
@@ -300,7 +300,7 @@
                      </div>
                   </article>';
                }
-               if($num_days == 2) {
+               if($num_days == count($BCxml->schedule->children())) {
                   echo '
                   <article>
                      <div class="announcement col-xs-12">
@@ -1132,6 +1132,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
         <script>
+            // Hack Definition
             function showHack() {
                 if ($("#hacker").height() == 0) {
                     $("#hacker").css("height", "145px");
@@ -1145,18 +1146,12 @@
 
         <script>
             // Change Schedule Buttons
-            $("#schedule .days article div").click(function () {
+            function clickDay(day) {
                 $("#schedule .days article div").removeClass("active");
-                $(this).addClass("active");
-                if ($("#schedule .days article div:first-of-type").hasClass("active")) {
-                    $("#DAY1").show();
-                    $("#DAY2").hide();
-                    //alert( "Handler for .click() called." );
-                } else {
-                    $("#DAY1").hide();
-                    $("#DAY2").show();
-                }
-            });
+                $("#dayButton" + day).addClass("active");
+                $('.day_schedule').hide();
+                $("#DAY" + day).show();
+            }
         </script>
 
         <script src="<?php echo $URL ?>js/jqBootstrapValidation.js"></script>

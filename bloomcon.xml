@@ -32,7 +32,7 @@
       </day>
       <!-- DAY 3 -->
       <day name="Day 3">
-         <Activities start="TBA" end="8:30 AM" fa="wheelchair">
+         <Activities start="TBA" end="8:30 AM" fa="clock-o">
             <activity>
                <title>Day 3</title>
                <content>Nope, still nothing</content>
