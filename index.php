@@ -243,16 +243,19 @@
             </div>
             <section class="days container">
                 <article class="col-xs-12">
-                    <div class="active col-xs-6">
-                        <p>
-                            <?php echo $BCxml->schedule->day[0]['name']; ?>
-                        </p>
-                    </div>
-                    <div class="col-xs-6">
-                        <p>
-                            <?php echo $BCxml->schedule->day[1]['name']; ?>
-                        </p>
-                    </div>
+                    <?php
+                        $index = 0;
+                        foreach ($BCxml->schedule->children() as $day) {
+                            if ($index == 0) {
+                                echo '<div class="active col-xs-4">';
+                            } else {
+                                echo '<div class="col-xs-4">';
+                            }
+                            echo '<p>' . $day[0]['name'] . '</p>';
+                            echo '</div>';
+                            $index++;
+                        }
+                    ?>
                 </article>
             </section>
 
