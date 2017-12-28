@@ -3,6 +3,7 @@
 <?php
    // ("https://raw.githubusercontent.com/riodw/bloomcon/master/bloomcon.xml"));
    $BCxml = simplexml_load_file('bloomcon.xml');
+   $URL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 <head>
    <meta charset="utf-8">
@@ -19,34 +20,34 @@
    <link rel="shortcut icon" href="favicon.png">
 
    <!-- Fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
    <!-- Font-Awesome -->
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
    <!-- CSS ==========-->
    <!-- BOOTSTRAP -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
    
    <!-- MY CUSTOM CSS-->
-   <link href="/css/styles.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/styles.css">
    <!--Navbar-->
-   <link href="/css/nav.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/nav.css">
    <!--About-->
-   <link href="/css/about.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/about.css">
    <!--Schedule-->
-   <link href="/css/Schedule.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/Schedule.css">
    <!--Events-->
-   <link href="/css/Event-Squares.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/Event-Squares.css">
    <!--Sponsors-->
-   <link href="/css/flip.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/flip.css">
    <!--Contact-->
-   <link href="/css/contact.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/contact.css">
    <!--Footer-->
-   <link href="/css/FooterLinks.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/FooterLinks.css">
    
    <!-- Matrix: Scrolling text -->
-   <link href="/css/Matrix.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?php echo $URL ?>css/Matrix.css">
 
    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -126,7 +127,7 @@
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <!-- HEADER - header - HEADER - header - HEADER - header - HEADER - header - HEADER - header -->
       <div id="logo" class="container" style="z-index:200;">
-         <img class="center-block" src="/images/huskblue.png" alt="logo">
+            <img class="center-block" src="<?php echo $URL ?>images/huskblue.png" alt="logo">
          <h1>BloomCON</h1>
          <p><?php echo $BCxml->date->month.' '.$BCxml->date->days_start.'-'.$BCxml->date->days_end; ?> @ Bloomsburg University </p>
 
@@ -142,7 +143,7 @@
                <i>noun<br>plural noun: <strong>hackers</strong></i>
             </p>
             <p style="padding-left:20px;">
-               <strong>1.</strong> &nbsp;&nbsp;A malicious meddler who tries to discover sensitive information by poking around.
+               <strong>1.</strong>&nbsp;&nbsp;&nbsp;A malicious meddler who tries to discover sensitive information by poking around.
             </p>
          </div>
       </div>
@@ -298,7 +299,7 @@
                   echo '
                         <section class="event">
                            <a class="image icon fa-'. $event->fa .' col-xs-12 col-sm-6">
-                              <img src="/images/'. $event->image .'" alt=""/>
+                              <img src="'.$URL.'images/'. $event->image .'" alt="event image"/>
                            </a>
                            <div class="content col-xs-12 col-sm-6">
                               <h3 style="color:#428bca;">'. $event->title .'</h3>
@@ -329,7 +330,7 @@
       <br>
 
       <!-- VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO  -->
-      <link href="/css/video.css" rel="stylesheet" type="text/css">
+      <link href="<?php echo $URL ?>css/video.css" rel="stylesheet" type="text/css">' ?>
       <!-- VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO - video - VIDEO  -->
 
       <!-- DATE - date - DATE - date - DATE - date - DATE - date - DATE - date - DATE - date - DATE - date DATE - date -->
@@ -341,8 +342,8 @@
                <h2 id="Date_Year" style="color:#ECECEC;"><?php echo $BCxml->date->year; ?></h2>
             </div>
             <div id="videoContainer">
-               <video autoplay id="aboutImage" poster="/images/Matrix.jpg" loop>
-                  <source src="Matrix.mp4" type="video/mp4">
+               <video autoplay id="aboutImage" poster="<?php echo 'images/Matrix.jpg' ?>" loop>
+                  <source src="<?php echo $URL ?>Matrix.mp4" type="video/mp4">
               </video>
             </div>
          </div>
@@ -383,7 +384,7 @@
                         <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                            <div class="flipper">
                               <div class="front">
-                                 <img src="/images/sponsors/'. $BCxml->date->year .'/'. $company->front .'" style="';
+                                 <img src="'.$URL.'images/sponsors/'. $BCxml->date->year .'/'. $company->front .'" style="';
                                  if($company->front['width'] != '')
                                     echo 'width:'. $company->front['width'] .'%;';
                                  if($company->front['margin'] != '')
@@ -391,7 +392,7 @@
                                  echo '">
                               </div>
                               <div class="back">
-                                 <img src="/images/sponsors/'. $BCxml->date->year .'/'. $company->back .'" style="';
+                                 <img src="'.$URL.'images/sponsors/'. $BCxml->date->year .'/'. $company->back .'" style="';
                                  if($company->back['width'] != '')
                                     echo 'width:'. $company->back['width'] .'%;';
                                  if($company->back['margin'] != '')
@@ -432,7 +433,7 @@
                         <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                            <div class="flipper">
                               <div class="front">
-                                 <img src="/images/sponsors/'. $company->front .'" style="';
+                                 <img src="'.$URL.'images/sponsors/'. $company->front .'" style="';
                                  if($company->front['width'] != '')
                                     echo 'width:'. $company->front['width'] .'%;';
                                  if($company->front['margin'] != '')
@@ -440,7 +441,7 @@
                                  echo '">
                               </div>
                               <div class="back">
-                                 <img src="/images/sponsors/'. $company->back .'" style="';
+                                 <img src="'.$URL.'images/sponsors/'. $company->back .'" style="';
                                  if($company->back['width'] != '')
                                     echo 'width:'. $company->back['width'] .'%;';
                                  if($company->back['margin'] != '')
@@ -475,7 +476,7 @@
                            <div class="flip-container" ontouchstart="this.classList.toggle(\'hover\');" style="background-color:#'. $company['color'] .'; box-shadow: 0 0 50px 5px #'. $level['color'] .';">
                               <div class="flipper">
                                  <div class="front">
-                                    <img src="/images/sponsors/'. $company->front .'" style="';
+                                    <img src="'.$URL.'images/sponsors/'. $company->front .'" style="';
                                     if($company->front['width'] != '')
                                        echo 'width:'. $company->front['width'] .'%;';
                                     if($company->front['margin'] != '')
@@ -483,7 +484,7 @@
                                     echo '">
                                  </div>
                                  <div class="back">
-                                    <img src="/images/sponsors/'. $company->back .'" style="';
+                                    <img src="'.$URL.'images/sponsors/'. $company->back .'" style="';
                                     if($company->back['width'] != '')
                                        echo 'width:'. $company->back['width'] .'%;';
                                     if($company->back['margin'] != '')
@@ -639,7 +640,7 @@
                var infowindow = new google.maps.InfoWindow({
                   content: contentString
                });
-               var image = '/marker.png';
+               var image = '<?php echo $URL ?>marker.png';
                var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
@@ -906,7 +907,7 @@
       </div>
       
       <!-- AFTER PARTY CSS -->
-      <link href="/css/AfterParty.css" rel="stylesheet" type="text/css">
+      <link href="<?php echo $URL ?>css/AfterParty.css" rel="stylesheet" type="text/css">
       <!-- After Party -->
       <div id="After_P_card" class="modal fade" role="dialog">
          <div class="col-xs-11 col-sm-10" style="margin: auto;float:none;">
@@ -928,10 +929,10 @@
                         <div class="card">
                            <div class="front">
                               <div class="cover" style="max-height:184px;overflow:hidden;">
-                                 <img src="/images/bar.jpg">
+                                 <img src="<?php echo $URL ?>images/bar.jpg">
                               </div>
                               <div class="user">
-                                 <img class="img-circle" src="/images/bar_logo.png">
+                              <?php echo '<img class="img-circle" src="'.$URL.'images/bar_logo.png">' ?>
                               </div>
                               <div class="content">
                                  <div class="main">
@@ -972,10 +973,10 @@
                         <div class="card">
                            <div class="front">
                               <div class="cover" style="max-height:184px;overflow:hidden;">
-                                 <img src="/images/dualcore_back.jpg">
+                                 <?php echo '<img src="'.$URL.'images/dualcore_back.jpg">' ?>
                               </div>
                               <div class="user">
-                                 <img class="img-circle" src="/images/dualcore.jpg">
+                                 <?php echo '<img src="'.$URL.'images/dualcore.jpg">' ?>
                               </div>
                               <div class="content">
                                  <div class="main">
@@ -1051,15 +1052,15 @@
          });
       </script>
 
-      <script src="/js/jqBootstrapValidation.js"></script>
-      <script src="/js/contact_me.js"></script>
-      <script src="/js/freelancer.js"></script>
+      <script src="<?php echo $URL ?>js/jqBootstrapValidation.js"></script>
+      <script src="<?php echo $URL ?>js/contact_me.js"></script>
+      <script src="<?php echo $URL ?>js/freelancer.js"></script>
 
       <!-- FROM GrayScale -->
       <!-- Plugin JavaScript -->
-      <script src="/js/jquery.easing.min.js"></script>
+      <script src="<?php echo $URL ?>js/jquery.easing.min.js"></script>
       <!-- Custom Theme JavaScript -->
-      <script src="/js/grayscale.js"></script>
+      <script src="<?php echo $URL ?>js/grayscale.js"></script>
 
 </body>
 </html>
