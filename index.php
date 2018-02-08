@@ -205,9 +205,9 @@
                 <h1>ABOUT BLOOMCON</h1>
             </div>
             <div class="container">
-                <h3>The second BloomCON Forensics and Security conference!
+                <h3>The third BloomCON Forensics and Security conference!
                     <br>Will be held March 23-25, 2018
-                    <br>At Bloomsburg University in Kehr Union, PA (USA).
+                    <br>At Bloomsburg University in Hartline Science Center, PA (USA).
                     <br>BloomCon is a once in a life time experience! It is established around those whom are interested in cyber
                     security.
                     <br>There will be many speakers, and you will have a chance to compete in unique workshops and cybersecurity
@@ -629,10 +629,10 @@
                     <div class="row">
                         <div class="footer-col col-md-4">
                             <h3>Location</h3>
-                            <p>Kehr Union
+                            <p>Hartline Science Center
                                 <br> Bloomsburg, PA 17815</p>
                             <p>
-                                <a href="https://www.google.com/maps/place/Kehr+Union,+Bloomsburg,+PA+17815/@41.0065621,-76.4523345,17z/data=!3m1!4b1!4m2!3m1!1s0x89c5877b66a6852d:0x95eee688f70c33e4"
+                                <a href="https://www.google.com/maps/place/Hartline+Science+Center,+Bloomsburg,+PA+17815/@41.0071703,-76.4497342,17z/data=!3m1!4b1!4m5!3m4!1s0x89c5877ad79d10d1:0x35763104e5911a15!8m2!3d41.0071686!4d-76.4474066"
                                     target="_new">Google Map It »</a>
                             </p>
                         </div>
@@ -826,9 +826,8 @@
                             <hr style="width:55%;">
                         </div>
                         <h4>
-                            The second BloomCON Forensics and Security conference will be held March 24-25, 2017 in Bloomsburg, PA (USA).
-                            <br> We are now officially accepting presentation and workshop submissions. We will hosting multiple
-                            speaking and workshop tracks.
+                            The third BloomCON Forensics and Security conference will be held March 23-25, 2018 in Bloomsburg, PA (USA).
+                            <br> We are now officially accepting presentation and workshop submissions. We will hosting multiple speaking and workshop tracks.
                             <br> We are looking for talks of 25 or 50 minutes in length and 2-hr or 4-hr workshops.
                         </h4>
 
@@ -847,7 +846,7 @@
                                     of asking for it later)</li>
                             </ul>
                             <p>
-                                <em>* NOTE: All submissions are due BY March 1, 2017.
+                                <em>* NOTE: All submissions are due BY March 1, 2018.
                                     <br> However we may be making some early selections from amongst the submissions, so please
                                     submit your stuff early.</em>
                             </p>
@@ -873,7 +872,9 @@
                                 <li>Social engineering</li>
                                 <li>Digital forensics</li>
                                 <li>WiFi hacking</li>
-                                <li>Capture the Flag</li>
+                                <li>Open source intelligence (OSINT)</li>
+                                <li>Hardware hacking</li>
+                                <li>Networking party with Dual Core</li>
                             </ul>
                         </div>
                     </div>
