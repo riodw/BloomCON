@@ -982,7 +982,7 @@
                             </ul>
                         </div>
                         <br>
-                        <a href="./bloomcon0x03-sponsor.docx" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">Download File to see all details</a>
+                        <a href="./bloomcon0x03-sponsor (1).docx" type="button" class="text-center btn btn-primary btn-lg" style="border:none; border-radius:0; background-color:#EEE; color:#74202f;">Download File to see all details</a>
                     </div>
                     <div class="modal-footer" style="clear: both;">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
