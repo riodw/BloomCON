@@ -901,7 +901,7 @@
                         </div>
                         <div style="max-width:600px; margin:0 auto; clear:both;">
                             <h4>Parking on Friday:</h4>
-                            <p>We have reserved the top and bottom levels of the tri-level parking deck for Friday. This will
+                            <p>We have reserved the bottom levels of the tri-level parking deck for Friday. This will
                                 open at 8am. Please be aware that past 9am we will not have attendents in the parking deck
                                 (they want to come to BloomCON too!). As a result, the deck may become full. Should the deck
                                 become full you can either park on the upper campus in the Orange lot and take a campus shuttle
@@ -939,42 +939,42 @@
                         <h4>Sponsorship is available at the following levels:</h4>
                         <br>
                         <div style="max-width:600px; margin:0 auto; clear:both;">
-                            <h4>Diamond $2500:</h4>
+                            <h4>Diamond $5000:</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a diamond sponsor in all event materials</li>
                                 <li>VIP access and swag</li>
                                 <li>Largest booth space (if desired)</li>
                                 <li>Ten free badges</li>
                             </ul>
-                            <h4>Platinum $1500:</h4>
+                            <h4>Platinum $2500:</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a platinum sponsor in all event materials</li>
                                 <li>VIP access and swag</li>
                                 <li>Larger booth space (if desired)</li>
                                 <li>Five free badges</li>
                             </ul>
-                            <h4>Gold $750:</h4>
+                            <h4>Gold $1500:</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a gold sponsor in all event materials</li>
                                 <li>Standard booth space (if desired)</li>
                                 <li>Larger booth space (if desired)</li>
                                 <li>Four free badges</li>
                             </ul>
-                            <h4>Silver $500:</h4>
+                            <h4>Silver $1000:</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a silver sponsor on website</li>
                                 <li>Standard booth space (if desired)</li>
                                 <li>Larger booth space (if desired)</li>
                                 <li>Three free badges</li>
                             </ul>
-                            <h4>Bronze $250:</h4>
+                            <h4>Bronze $500:</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a bronze sponsor on website</li>
                                 <li>Standard booth space (if desired)</li>
                                 <li>Two free badges</li>
                                 <li>Three free badges</li>
                             </ul>
-                            <h4>Copper $100: (non-profits only)</h4>
+                            <h4>Copper $200: (non-profits only)</h4>
                             <ul style="text-align:left; margin:0 auto;">
                                 <li>Listed as a copper sponsor on website</li>
                                 <li>Standard booth space (if desired)</li>
