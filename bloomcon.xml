@@ -18,6 +18,10 @@
             <activity>
                <title>PS4 Hacking</title>
                <content>Hacking PS4s</content>
+         <Activities start="8:00 AM" end="8:30 AM" fa="check">
+            <activity>
+               <title>PS4 Hacking</title>
+               <content>Hacking PS4s</content>
             </activity>
          </Activities>
       </day>
