@@ -14,10 +14,10 @@
    <schedule title="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
-         <Activities start="8:00 AM" end="8:30 AM" fa="check">
+         <Activities start="2:00 PM" end="5:00 PM" fa="check">
             <activity>
-               <title>PS4 Hacking</title>
-               <content>Hacking PS4s</content>
+               <title>Registration</title>
+               <content>Event Registration</content>
             </activity>
          </Activities>
       </day>
