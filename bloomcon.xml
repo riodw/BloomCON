@@ -14,7 +14,7 @@
    <schedule title="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
-         <Activities start="2:00 PM" end="5:00 PM" fa="check">
+         <Activities start="2:00 PM" end="5:00 PM" fa="Lobby">
             <activity>
                <title>Registration</title>
                <content>Event Registration</content>
@@ -43,7 +43,7 @@
          </Activities>
          <Activities start="10:00 AM" end="10:30 AM" fa="check">
             <activity>
-               <title>Chris Silvers & Taylor Banks</title>
+               <title>Chris Silvers and Taylor Banks</title>
                <content>On the Hunt</content>
             </activity>
          </Activities>
