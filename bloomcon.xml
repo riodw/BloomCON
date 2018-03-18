@@ -35,6 +35,36 @@
                <content>Event Registration</content>
             </activity>
          </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
       </day>
       <!-- DAY 3 -->
       <day name="Day 3">
