@@ -14,7 +14,7 @@
    <schedule title="SCHEDULE">
       <!-- DAY 1 -->
       <day name="Day 1">
-         <Activities start="2:00 PM" end="5:00 PM" fa="Lobby">
+         <Activities start="2:00 PM" end="5:00 PM" fa="check">
             <activity>
                <title>Registration</title>
                <content>Event Registration</content>
