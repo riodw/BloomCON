@@ -289,7 +289,7 @@
                   }
                   echo '</article>';
                }
-               if($num_days == 1) {
+               #if($num_days == 1) {
                   echo '
                   <article data-toggle="modal" data-target="#Remove_After_P_card" style="cursor:pointer;">
                      <div class="announcement col-xs-12">
