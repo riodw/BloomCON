@@ -294,7 +294,7 @@
                   <article data-toggle="modal" data-target="#Remove_After_P_card" style="cursor:pointer;">
                      <div class="announcement col-xs-12">
                         <div class="col-xs-12"><h3>After Party - 6:00 PM</h3>
-                           <p>Party with <b>Dual Core</b> at <b><a href="#" style="color:#fff;text-decoration:underline;">To Be Announced</a></b>.</p>
+                           <p>Party with <b>Dual Core</b> at <b><a href="#" style="color:#fff;text-decoration:underline;">Monties</a></b>.</p>
                            <!--p><a class="btn btn-danger btn-lg"><i class="fa fa-info-circle"></i> After Party Info</a></p-->
                         </div>
                      </div>
