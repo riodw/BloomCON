@@ -29,10 +29,34 @@
       </day>
       <!-- DAY 2 -->
       <day name="Day 2">
-         <Activities start="TBA" end="8:30 AM" fa="wheelchair">
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
             <activity>
-               <title>I said, TO BE ANNOUNCED!</title>
-               <content>Did you really think there would be something different here?</content>
+               <title>Registration</title>
+               <content>Event Registration</content
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content
+            </activity>
+         </Activities>
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content
             </activity>
          </Activities>
       </day>
