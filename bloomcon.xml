@@ -29,7 +29,7 @@
       </day>
       <!-- DAY 2 -->
       <day name="Day 2">
-         <Activities start="8:00 AM" end="12:00 PM" fa="Lobby">
+         <Activities start="8:00 AM" end="12:00 PM" fa="check">
             <activity>
                <title>Registration</title>
                <content>Event Registration</content>
