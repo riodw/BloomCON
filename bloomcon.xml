@@ -20,6 +20,12 @@
                <content>Event Registration</content>
             </activity>
          </Activities>
+         <Activities start="2:00 PM" end="5:00 PM" fa="check">
+            <activity>
+               <title>Registration</title>
+               <content>Event Registration</content>
+            </activity>
+         </Activities>
       </day>
       <!-- DAY 2 -->
       <day name="Day 2">
