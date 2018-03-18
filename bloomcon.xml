@@ -20,10 +20,10 @@
                <content>Event Registration</content>
             </activity>
          </Activities>
-         <Activities start="2:00 PM" end="5:00 PM" fa="check">
+         <Activities start="3:00 PM" end="4:00 PM" fa="check">
             <activity>
-               <title>Registration</title>
-               <content>Event Registration</content>
+               <title>Malicious Avtivity Atifacts</title>
+               <content>Dave and Dan Pany</content>
             </activity>
          </Activities>
       </day>
