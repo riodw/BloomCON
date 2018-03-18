@@ -105,6 +105,12 @@
          <content>The Lockpick Village is a physical security demonstration and participation area. Visitors can learn about the vulnerabilities of various locking devices, techniques used to exploit these vulnerabilities, and practice on locks of various levels of difficultly to try it themselves.</content>
          <image>pic01.jpg</image>
       </event>
+      <event>
+         <title>Drone Wars</title>
+         <fa>fighter-jet</fa>
+         <content>Drones of all shapes and sized are offered up for hacking by bloomsburg and the United States Air Force in this exciting compeition to see who can hack into a moving drone!</content>
+         <image>pic01.jpg</image>
+      </event>
    </events>
    
    <sponsors title="SPONSORS">
