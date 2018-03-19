@@ -65,6 +65,42 @@
                <content>Blue Team Labs</content>
             </activity>
          </Activities>
+         </Activities>
+         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+            <activity>
+               <title>Panel Discussion</title>
+               <content>Working in Infosec</content>
+            </activity>
+         </Activities>
+         </Activities>
+         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+            <activity>
+               <title>Chris Meyers and Barrett Adams</title>
+               <content>Offline OSINT</content>
+            </activity>
+         </Activities>
+         </Activities>
+         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+            <activity>
+               <title>Chris Meyers and Barrett Adams</title>
+               <content>Offline OSINT</content>
+            </activity>
+         </Activities>
+         </Activities>
+         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+            <activity>
+               <title>Chris Meyers and Barrett Adams</title>
+               <content>Offline OSINT</content>
+            </activity>
+         </Activities>
+         </Activities>
+         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+            <activity>
+               <title>Chris Meyers and Barrett Adams</title>
+               <content>Offline OSINT</content>
+            </activity>
+         </Activities>
+   
       </day>
       <!-- DAY 3 -->
       <day name="Day 3">
