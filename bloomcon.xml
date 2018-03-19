@@ -113,55 +113,72 @@
                <content>P@cketR@cuet</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="2:00 PM" end="3:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Alejandro Caceres</title>
+               <content>Punk.sh</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="2:00 PM" end="3:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Alexander Urbelis</title>
+               <content>TBD</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="2:00 PM" end="3:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Ben Tice</title>
+               <content>Whitelist All the Things</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="2:00 PM" end="2:30 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Korey Young</title>
+               <content>Hacking a Cloud Pet</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="2:30 PM" end="3:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Bill Barnes</title>
+               <content>HAM Radio</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="3:00 PM" end="4:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Alex Muentz</title>
+               <content>Croudsourcing Security</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="3:00 PM" end="4:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>John Riley</title>
+               <content>Scraps from Recycle Bin</content>
             </activity>
          </Activities>
-         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+         <Activities start="3:00 PM" end="4:00 PM" fa="check">
             <activity>
-               <title>Brian Moran</title>
-               <content>Alexa ForesnsicsT</content>
+               <title>Terrance DeJesus</title>
+               <content>Coinmining</content>
             </activity>
          </Activities>
-         
+         <Activities start="4:00 PM" end="5:00 PM" fa="check">
+            <activity>
+               <title>Andrew Rozema</title>
+               <content>#MeToo and Set of Skills</content>
+            </activity>
+         </Activities>
+         <Activities start="4:00 PM" end="5:00 PM" fa="check">
+            <activity>
+               <title>Scott Inch</title>
+               <content>TBD</content>
+            </activity>
+         </Activities>
+         <Activities start="4:00 PM" end="4:30 PM" fa="check">
+            <activity>
+               <title>Dave Pany</title>
+               <content>CDPO</content>
+            </activity>
+         </Activities>
       </day>
       <!-- DAY 3 -->
       <day name="Day 3">
