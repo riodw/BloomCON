@@ -35,66 +35,133 @@
                <content>Event Registration</content>
             </activity>
          </Activities>
-         <Activities start="9:00 AM" end="9:30 AM" fa="check">
+         <Activities start="9:00 AM" end="10:00 AM" fa="check">
             <activity>
                <title>Lee Neubecker</title>
                <content>KeyNote Presentation</content>
             </activity>
          </Activities>
-         <Activities start="10:00 AM" end="10:30 AM" fa="check">
+         <Activities start="10:00 AM" end="11:00 AM" fa="check">
             <activity>
                <title>Chris Silvers and Taylor Banks</title>
                <content>On the Hunt</content>
             </activity>
          </Activities>
-         <Activities start="10:00 AM" end="10:30 AM" fa="check">
+         <Activities start="10:00 AM" end="11:00 AM" fa="check">
             <activity>
                <title>Brian Martin</title>
                <content>Post Attribution</content>
             </activity>
          </Activities>
-         <Activities start="10:00 AM" end="10:15 AM" fa="check">
+         <Activities start="10:00 AM" end="10:30 AM" fa="check">
             <activity>
                <title>Mark Sanders</title>
                <content>Malware Det. via Machine Learning</content>
             </activity>
          </Activities>
-         <Activities start="10:15 AM" end="10:30 AM" fa="check">
+         <Activities start="10:30 AM" end="11:00 AM" fa="check">
             <activity>
                <title>Forgotten</title>
                <content>Blue Team Labs</content>
             </activity>
          </Activities>
-         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+         <Activities start="11:00 AM" end="12:00 PM" fa="check">
             <activity>
                <title>Panel Discussion</title>
                <content>Working in Infosec</content>
             </activity>
          </Activities>
-         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+         <Activities start="11:00 AM" end="12:00 PM" fa="check">
             <activity>
                <title>Chris Meyers and Barrett Adams</title>
                <content>Offline OSINT</content>
             </activity>
          </Activities>
-         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+         <Activities start="12:00 PM" end="1:00 PM" fa="check">
             <activity>
-               <title>Chris Meyers and Barrett Adams</title>
-               <content>Offline OSINT</content>
+               <title>Lunch</title>
+               <content></content>
             </activity>
          </Activities>
-         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+         <Activities start="12:00 PM" end="1:00 PM" fa="check">
             <activity>
-               <title>Chris Meyers and Barrett Adams</title>
-               <content>Offline OSINT</content>
+               <title>Hak4Kidz</title>
+               <content></content>
             </activity>
          </Activities>
-         <Activities start="11:00 AM" end="11:30 AM" fa="check">
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
             <activity>
-               <title>Chris Meyers and Barrett Adams</title>
-               <content>Offline OSINT</content>
+               <title>Brian Moran</title>
+               <content>Alexa Foresnsics</content>
             </activity>
          </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Satira</title>
+               <content>Mac Foresnsics</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="1:30 PM" fa="check">
+            <activity>
+               <title>Aaron Thomas</title>
+               <content>Become a Hacker</content>
+            </activity>
+         </Activities>
+         <Activities start="1:30 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Killian Ditch</title>
+               <content>P@cketR@cuet</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         <Activities start="1:00 PM" end="2:00 PM" fa="check">
+            <activity>
+               <title>Brian Moran</title>
+               <content>Alexa ForesnsicsT</content>
+            </activity>
+         </Activities>
+         
       </day>
       <!-- DAY 3 -->
       <day name="Day 3">
